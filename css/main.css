@@ -1,0 +1,240 @@
+/*FONTS============================================================*/
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/css/fonts/SFUIDisplay-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/css/fonts/SFUIDisplay-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/css/fonts/SFUIDisplay-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/css/fonts/SFUIDisplay-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/css/fonts/SFUIDisplay-Heavy.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TeX Gyre Adventor";
+  src: url("/css/fonts/TeXGyreAdventor-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*=================================================================*/
+
+/*  COMMON STYLES==================================================*/
+._block-main-heading-style {
+  font-family: 'SF UI Display';
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 62px;
+  color: #09090B;
+}
+
+._yellow-text {
+  color: #fed32c;
+}
+
+._header-footer-heading {
+  font-family: "SF UI Display";
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+._paragraph-main-font {
+  font-family: 'SF UI Display';
+  font-size: 18px;
+  line-height: 28px;
+}
+
+._app-store-btn {
+  padding: 0;
+}
+
+._margin-bottom-24 {
+  margin-bottom: 24px;
+}
+/*=================================================================*/
+
+.header_background-color-patterns {
+  background: 
+                    url("/img/down-wave-pattern.png") no-repeat, 
+                    url("/img/up-wave-pattern.png") no-repeat left bottom,
+                    #09090b;
+}
+
+.header_padding {
+  padding-bottom: 44px;
+  padding-top: 165px;
+}
+
+.header__app-slogan_font {
+  font-family: 'SF UI Display';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.header__slogan-wrapper {
+  margin-bottom: 37px;
+}
+
+.header__heading {
+  margin-bottom: 20px;
+  width: 590px;
+}
+
+.header__paragraph {
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+.header__banner-img_position {
+  position: relative;
+  top: -12%;
+  left: 10%;
+}
+
+.how-work_padding {
+  padding-top: 140px;
+  padding-bottom: 139px;
+}
+
+.how-work__paragraph {
+  color: #3F3E41;
+  width: 794px;
+}
+
+.how-work__scan-info {
+  font-weight: 600;
+  color: #09090B;
+  width: 212px;
+}
+
+.how-work__heading {
+  margin-bottom: 30px;
+}
+
+.how-work__paragraph {
+  margin-bottom: 63px;
+}
+
+.header__scroll-down {
+  margin-top: 52px;
+}
+
+.header__scroll-down-text {
+  font-family: 'TeX Gyre Adventor';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 18px;
+}
+
+.how-work__item-scan {
+  background-image: url(/img/one-number-bg.png);
+  background-repeat: no-repeat;
+  height: 183px;
+  background-position: 20% 49%;
+}
+
+.how-work__item-save {
+  background-image: url(/img/two-number-bg.png);
+  background-repeat: no-repeat;
+  height: 183px;
+  background-position: 20% 49%;
+}
+
+.how-work__item-upload {
+  background-image: url(/img/three-number-bg.png);
+  background-repeat: no-repeat;
+  height: 183px;
+  background-position: 20% 49%;
+}
+
+.features {
+  background: rgba(238, 243, 254, 0.5);
+}
+
+.features_padding {
+  padding-top: 118px;
+  padding-bottom: 123px;
+}
+
+.features__heading {
+  margin-bottom: 57px;
+}
+
+.features__action-item-heading {
+  font-family: 'SF UI Display';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+  margin-bottom: 8px;
+  margin-top: 14px;
+}
+
+.features__action-item-paragraph {
+  font-family: 'SF UI Display';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  width: 285px;
+  margin-left: auto;
+}
+
+.features__action-item-info {
+  margin-right: 10px;
+}
+
+.features__action-item-first_margin {
+  margin-top: 57px;
+  margin-bottom: 90px;
+}
+
+.features__action-item-second_margin {
+  margin-bottom: 50px;
+}
+
+.features__iphone {
+  margin-bottom: 69px;
+  margin-left: 42px !important;
+}
+
+.features__action-item-img_margin {
+  margin-right: 10px;
+}
+
+
