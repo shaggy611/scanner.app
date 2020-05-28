@@ -11,8 +11,8 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1200,
@@ -167,7 +167,7 @@ $(document).ready(function () {
       features_arrow.show()
     }
 
-    if ($(window).scrollTop() > 2501) {
+    if ($(window).scrollTop() > 2301) {
       testimonials_arrow.addClass("_appear");
       testimonials_arrow.show()
     }
