@@ -1,5 +1,9 @@
 @media (min-width: 375px) and (max-width: 767px) {
 
+  ._hide-on-desktop-mobile {
+    display: none;
+  }
+
     ._paragraph-main-font-mobile {
         font-family: "SF UI Display";
         font-size: 16px;
@@ -252,4 +256,68 @@
         margin-top: 87px;
         text-align: center !important;
     }
+
+    .terms-of-use_heading {
+      max-width: 350px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .term-of-use__paragraph {
+      max-width: 350px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .terms-of-use_like-second-heading {
+      max-width: 350px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .top-menu__menu-body {
+      height: 70px;
+  }
+
+  .top-menu__app-slogan_font {
+      font-size: 20px;
+  }
+  ._margin-right-tablet-mobile-10 {
+      margin-right: 10px !important;
+  }
+
+  ._margin-left-tablet-mobile-10 {
+      margin-left: 10px !important;
+  }
+
+  .terms__list {
+    margin-right: auto;
+    margin-left: auto;
+  max-width: 300px;
+}
+
+.terms-page__footer_margin-mobile {
+  margin-top: 0 !important;
+  margin-bottom: 26px;
+}
+
+.terms-page-top-menu__menu-body {
+  flex-wrap: wrap;
+}
+
+.top-menu__logo-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top-menu__apple-store-wrapper {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-menu__menu-body {
+  height: auto;
+}
 }
