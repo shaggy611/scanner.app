@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 767px) {
 
     ._paragraph-main-font-mobile {
         font-family: "SF UI Display";
@@ -141,7 +141,10 @@
     }
 
     .features__action-item-mobile {
-        flex-wrap: wrap;
+      max-width: 375px;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .features__action-item-mobile > img {
@@ -249,5 +252,4 @@
         margin-top: 87px;
         text-align: center !important;
     }
-
 }
