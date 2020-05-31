@@ -1,326 +1,340 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  ._hide-on-tablet {
+    display: none;
+  }
 
-    ._hide-on-tablet {
-        display: none;
-    }
+  ._show-on-tablet {
+    display: block !important;
+  }
 
-    ._show-on-tablet {
-        display: block !important;
-    }
+  ._margin-left-30 {
+    margin-left: 70px;
+  }
 
-    ._paragraph-main-font-mobile {
-        font-family: "SF UI Display";
-        font-size: 16px;
-        line-height: 26px;
-      }
+  ._mobile-img-width {
+    width: 48px;
+  }
 
-      ._block-main-heading-style {
-        font-size: 30px;
-        line-height: 4px;
-      }
+  ._paragraph-main-font-mobile {
+    font-family: "SF UI Display";
+    font-size: 16px;
+    line-height: 26px;
+  }
 
-      ._header-footer-heading {
-        font-weight: 800;
-        font-size: 34px;
-        line-height: 46px;
-      }
+  ._block-main-heading-style {
+    font-size: 30px;
+    line-height: 4px;
+  }
 
-      .header {
-          text-align: center;
-      }
+  ._header-footer-heading {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 46px;
+  }
 
-    .header__app-store-download_width {
-        max-width: 170px;
-      }
-      
-      .header_background-color-patterns {
-        background: url("/img/down-wave-pattern-mobile.png") no-repeat,
-          url("/img/up-wave-pattern-mobile.png") no-repeat left 320%, #09090b;
-      }
-      
-      .header_padding {
-        padding-bottom: 55px;
-        padding-top: 80px;
-      }
-      
-      .header__app-slogan_font {
-        font-family: "SF UI Display";
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 34px;
-        color: #ffffff;
-        margin-left: 0;
-        display: block;
-        margin-top: 15px;
-      }
-      
-      .header__slogan-wrapper {
-        margin-bottom: 37px;
-        display: inline-flex;
-      }
-      
-      .header__heading {
-        margin-bottom: 20px;
-        width: 440px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      .header__paragraph {
-        width: 529px;
-        margin-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      .header__banner-img_position {
-        position: relative;
-        top: 0;
-        left: 0;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 422px !important;
-        margin-top: 39px;
-      }
+  .header {
+    text-align: center;
+  }
 
-      .header__scroll-down {
-          display: none;
-      }
+  .header__app-store-download_width {
+    max-width: 170px;
+  }
 
-      .top-menu {
-        display: none !important;
-      }
+  .header_background-color-patterns {
+    background: url("/img/down-wave-pattern-mobile.png") no-repeat,
+      url("/img/up-wave-pattern-mobile.png") no-repeat left 320%, #09090b;
+  }
 
-      .how-work_padding {
-        padding-top: 100px;
-        padding-bottom: 42px;
-      }
+  .header_padding {
+    padding-bottom: 55px;
+    padding-top: 80px;
+  }
 
-      .how-work__paragraph {
-          display: block;
-          width: 688px;
-          margin-right: auto;
-          margin-left: auto;
-      }
+  .header__app-slogan_font {
+    font-family: "SF UI Display";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    margin-left: 0;
+    display: block;
+    margin-top: 15px;
+  }
 
-      .how-work__paragraph {
-          margin-bottom: 50px;
-      }
+  .header__slogan-wrapper {
+    margin-bottom: 37px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
 
-      .how-work__item-scan {
-        background-position: 20% 27%;
-        height: auto;
-        margin-bottom: 60px;
-      }
-      
-      .how-work__item-save {
-        background-position: 20% 20%;
-        height: auto;
-        margin-bottom: 60px;
-      }
-      
-      .how-work__item-upload {
-        background-position: 20% 20%;
-        height: auto;
-      }
+  .header__heading {
+    margin-bottom: 20px;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-      .how-work__heading {
-        margin-bottom: 40px;
-    }
+  .header__paragraph {
+    width: 529px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .features_padding {
-        padding-top: 69px;
-        padding-bottom: 79px;
-      }
+  .header__banner-img_position {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 422px !important;
+    margin-top: 39px;
+  }
 
-      .features__heading {
-        margin-bottom: 40px;
-    }
+  .header__scroll-down {
+    display: none;
+  }
 
-    .features__iphone-video-wrapper {
-        /* display: none !important; */
-    }
+  .top-menu {
+    display: none !important;
+  }
 
-    .features__action-item-paragraph {
-        font-size: 16px;
-        line-height: 26px;
-        max-width: 290px !important;
-        width: 100%;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-      }
+  .how-work_padding {
+    padding-top: 100px;
+    padding-bottom: 42px;
+  }
 
-      .features__action-item-first_height-margin {
-        margin-top: 20px;
-        margin-bottom: 40px;
-        height: 13%;
-    }
+  .how-work__paragraph {
+    display: block;
+    width: 688px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .features__action-item-mobile {
-      max-width: 690px;
-      flex-wrap: wrap;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .how-work__paragraph {
+    margin-bottom: 50px;
+  }
 
-    .features__action-item-mobile > img {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .features__action-item-info {
-        width: 572px;
-        margin-right: auto;
-        margin-left: 0;
-        text-align: left !important;
-    }
+  .how-work__item-scan {
+    background-position: 20% 27%;
+    height: auto;
+    margin-bottom: 60px;
+  }
 
-    .features__action-item-second_margin {
-        margin-bottom: 45px;
-        margin-top: 150px;
-    }
+  .how-work__item-save {
+    background-position: 20% 20%;
+    height: auto;
+    margin-bottom: 60px;
+  }
 
-    .features__action-item-heading {
-        margin-top: 13px;
-        text-align: center;
-        width: 290px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .how-work__item-upload {
+    background-position: 20% 20%;
+    height: auto;
+  }
 
-    .features__action-item-first_minus-margin {
-        margin-top: 20px !important;
-    }
+  .how-work__heading {
+    margin-bottom: 40px;
+  }
 
-    .features__action-item-second_margin-plus {
-        margin-top: 150px !important;
-    }
+  .features_padding {
+    padding-top: 69px;
+    padding-bottom: 79px;
+  }
 
-    ._app-store-btn-features-mobile {
-        margin-top: -53px !important;
-        margin-bottom: 68px;
-    }
+  .features__heading {
+    margin-bottom: 40px;
+  }
 
-    .testimonials_padding {
-        padding-top: 80px;
-        padding-bottom: 68px;
-    }
+  .features__iphone-video-wrapper {
+    /* display: none !important; */
+  }
 
-    .testimonials__slider-item {
-        width: 335px !important;
-        margin-left: 24px !important;
-        margin-right: 15px !important;
-    }
-    .testimonials__slider {
-        width: 768px;
-    }
+  .features__action-item-paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 290px !important;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .testimonials__slider-item-comment {
-        width: 264px;
-    }
+  .features__action-item-first_height-margin {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 13%;
+  }
 
-    .footer__heading {
-        max-width: 480px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
+  .features__action-item-mobile {
+    max-width: 690px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    ._app-store-btn-footer {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 234px;
-        display: block;
-        /* margin-bottom: 45px; */
-    }
+  .features__action-item-mobile > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .features__action-item-info {
+    width: 572px;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: left !important;
+  }
 
-    .footer__heading {
-        margin-bottom: 40px;
-    }
+  .features__action-item-second_margin {
+    margin-bottom: 45px;
+    margin-top: 150px;
+  }
 
-    .footer__iphones-img {
-        position: static;
-        max-width: 380px;
-        margin-top: 45px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
+  .features__action-item-heading {
+    margin-top: 13px;
+    text-align: center;
+    width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .footer_padding {
-        padding-top: 70px;
-    }
+  .features__action-item-first_minus-margin {
+    margin-top: 20px !important;
+  }
 
-    .terms__footer_margin {
-        margin-top: 87px !important;
-    }
+  .features__action-item-second_margin-plus {
+    margin-top: 150px !important;
+  }
 
-    .footer__terms {
-        text-align: center !important;
-    }
+  ._app-store-btn-features-mobile {
+    margin-top: -53px !important;
+    margin-bottom: 68px;
+  }
 
-    .footer_background {
-        background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left bottom,
-          url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top, #09090b;
-      }
+  .testimonials_padding {
+    padding-top: 80px;
+    padding-bottom: 68px;
+  }
 
-      .footer__copyright {
-        color: #ffffff;
-        margin-bottom: 12px;
-        text-align: center !important;
-        font-size: 14px;
-        margin-top: 87px;
-    }
+  .testimonials__slider-item {
+    width: 335px !important;
+    margin-left: 24px !important;
+    margin-right: 15px !important;
+  }
+  .testimonials__slider {
+    width: 768px;
+  }
 
-    .terms-footer__terms, .terms-footer__terms > a {
-        font-size: 16px;
-        line-height: 28px;
-        margin-bottom: 16px;
-        margin-top: 87px;
-        text-align: center !important;
-    }
+  .testimonials__slider-item-comment {
+    width: 264px;
+  }
 
-    .terms-of-use_heading {
-        max-width: 640px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .footer__heading {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 
-    .term-of-use__paragraph {
-        max-width: 640px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  ._app-store-btn-footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 234px;
+    display: block;
+    /* margin-bottom: 45px; */
+  }
 
-    .terms-of-use_like-second-heading {
-        max-width: 640px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .footer__heading {
+    margin-bottom: 40px;
+  }
 
-    .top-menu__menu-body {
-        height: 70px;
-    }
+  .footer__iphones-img {
+    position: static;
+    max-width: 380px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 
-    .top-menu__app-slogan_font {
-        font-size: 20px;
-    }
-    ._margin-right-tablet-mobile-10 {
-        margin-right: 10px !important;
-    }
+  .footer_padding {
+    padding-top: 70px;
+  }
 
-    ._margin-left-tablet-mobile-10 {
-        margin-left: 10px !important;
-    }
+  .terms__footer_margin {
+    margin-top: 87px !important;
+  }
 
-      .terms__list {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 600px;
-}
+  .footer__terms {
+    text-align: center !important;
+  }
 
-.terms-page__footer_margin {
+  .footer_background {
+    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left
+        bottom,
+      url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
+      #09090b;
+  }
+
+  .footer__copyright {
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-align: center !important;
+    font-size: 14px;
+    margin-top: 87px;
+  }
+
+  .terms-footer__terms,
+  .terms-footer__terms > a {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 87px;
+    text-align: center !important;
+  }
+
+  .terms-of-use_heading {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .term-of-use__paragraph {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .terms-of-use_like-second-heading {
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .top-menu__menu-body {
+    height: 70px;
+  }
+
+  .top-menu__app-slogan_font {
+    font-size: 20px;
+  }
+  ._margin-right-tablet-mobile-10 {
+    margin-right: 10px !important;
+  }
+
+  ._margin-left-tablet-mobile-10 {
+    margin-left: 10px !important;
+  }
+
+  .terms__list {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+  }
+
+  .terms-page__footer_margin {
     margin-top: 26px !important;
-}
-
+  }
 }

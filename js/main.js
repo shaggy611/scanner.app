@@ -1,7 +1,11 @@
 $(document).ready(function () {
-  // let connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-  // console.log(connection);
-  // document.write(connection.effectiveType);
+  let connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  console.log(connection.effectiveType);
+  
+    // if (connection.effectiveType === '3g') {
+    //   let video_block = $(".features__video-wrapper");
+    //   video_block.remove();
+    // }
 
   // SLIDER INITIALIZATION==================================================
   $(".js-slider").slick({
