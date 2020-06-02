@@ -61,21 +61,6 @@ $(document).ready(function () {
 
   // Animation with buttons and Video playing===================================
 
-  // let scan_btn = $(".js-scan-button");
-  // let border_btn = $(".js-border-button");
-  // let sign_btn = $(".js-sign-button");
-  // let turn_text_btn = $(".js-turn-text-button");
-  // let color_perspect_btn = (".js-color-perspect-button");
-  // let share_btn = (".js-share-button");
-
-  // scan_btn.mouseenter(function ( ) { 
-  //   play_video_iphone(".js-feature__video-scan");
-  // });
-
-  // scan_btn.mouseleave(function ( ) { 
-  //   stop_video_iphone(".js-feature__video-scan");
-  // });
-
   $(".js-handler-for-hover").mouseenter(function (event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
@@ -142,10 +127,6 @@ $(document).ready(function () {
   header_arrow.show()
 
   $(window).scroll(function () {
-    // if($(window).scrollTop() > 1){
-    //   header_arrow.addClass("_appear");
-    //   header_arrow.show()
-    // }
 
     // SHOW TOP MENU ===========================================================
     if ($(window).scrollTop() > 665) {
