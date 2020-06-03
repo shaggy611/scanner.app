@@ -268,7 +268,7 @@
   }
 
   .footer__heading {
-    max-width: 480px;
+    max-width: 596px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -308,9 +308,9 @@
   }
 
   .footer_background {
-    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left
-        bottom,
-      url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
+    background: url("/img/footer-down-wave-pattern-tablet.png") no-repeat left
+        -90%,
+      url("/img/footer-up-wave-pattern-tablet.png") no-repeat 100% top,
       #09090b;
   }
 
