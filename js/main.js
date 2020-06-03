@@ -123,7 +123,7 @@ $(document).ready(function () {
   let features_arrow = $(".line-futures-arrow");
   let testimonials_arrow = $(".line-testimonials-arrow");
 
-  header_arrow.addClass("_appear");
+  header_arrow.addClass("_appear_dots");
   header_arrow.show()
 
   $(window).scroll(function () {
@@ -138,22 +138,20 @@ $(document).ready(function () {
     if ($(window).scrollTop() < 500) {
       $(".top-menu").removeClass("_appear");
       $(".top-menu").addClass("_disappear");
-      // setTimeout('$(".top-menu").hide()',1000);
-      // $(".top-menu").hide()
     }
 
     if ($(window).scrollTop() > 680) {
-      how_works_arrow.addClass("_appear");
+      how_works_arrow.addClass("_appear_dots");
       how_works_arrow.show();
     }
 
     if ($(window).scrollTop() > 1450) {
-      features_arrow.addClass("_appear");
+      features_arrow.addClass("_appear_dots");
       features_arrow.show()
     }
 
     if ($(window).scrollTop() > 2301) {
-      testimonials_arrow.addClass("_appear");
+      testimonials_arrow.addClass("_appear_dots");
       testimonials_arrow.show()
     }
 

@@ -1,4 +1,10 @@
 @media (min-width: 375px) and (max-width: 767px) {
+
+  .logo__mobile {
+    content: url(/img/logo_mobile.png);
+    width: 58px;
+  }
+
   ._mobile-img-width {
     width: 47px;
   }
@@ -15,6 +21,7 @@
     font-family: "SF UI Display";
     font-size: 16px;
     line-height: 26px;
+    width: 188px;
   }
 
   ._block-main-heading-style {
@@ -160,6 +167,10 @@
     margin-right: auto;
   }
 
+  .features__action-item-paragraph-first {
+    max-width: 295px !important;
+  }
+
   .features__action-item-first_height-margin {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -197,12 +208,26 @@
     font-size: 20px;
   }
 
+  .features__action-item-heading-turn-txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 182px;
+  }
+
+  .features__action-item-heading-color {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 183px;
+  }
+
   .features__action-item-first_minus-margin {
     margin-top: -62px !important;
   }
 
   .features__action-item-second_margin-plus {
-    margin-top: 155px !important;
+    margin-top: 168px !important;
   }
 
   ._app-store-btn-features-mobile {
@@ -341,12 +366,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
   }
 
   .top-menu__apple-store-wrapper {
     margin-bottom: 20px;
-    margin-right: auto;
+    margin-right: 10px;
     margin-left: auto;
   }
 }
