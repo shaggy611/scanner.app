@@ -170,14 +170,14 @@ a:hover {
   width: 2px;
   border-left: 2px solid rgba(255, 255, 255, 0.3);
   position: absolute;
-  left: 11.65%;
+  left: 217px;
   top: -50px;
 }
 
 .line-header_arrow {
   position: absolute;
-  left: 11%;
-  top: 25%;
+  left: 204px;
+  top: 245px;
   display: none;
 }
 
@@ -186,30 +186,30 @@ a:hover {
   width: 2px;
   border-left: 2px solid rgba(254, 212, 44, 0.3);
   position: absolute;
-  left: 11.65%;
+  left: 217px;
   top: 0;
 }
 
 .line-how-work-arrow {
   position: absolute;
-  left: 11%;
-  top: 43%;
+  left: 204px;
+  top: 275px;
   display: none;
 }
 
 .line-futures {
-  height: 1151px;
+  height: 1152px;
   width: 2px;
   border-left: 2px solid rgba(83, 131, 236, 0.3);
   position: absolute;
-  left: 11.65%;
+  left: 217px;
   top: 0;
 }
 
 .line-futures-arrow {
   position: absolute;
-  left: 11%;
-  top: 37%;
+  left: 204px;
+  top: 427px;
   display: none;
 }
 
@@ -218,14 +218,14 @@ a:hover {
   width: 2px;
   border-left: 2px solid rgba(254, 212, 44, 0.3);
   position: absolute;
-  left: 11.65%;
+  left: 217px;
   top: 0;
 }
 
 .line-testimonials-arrow {
   position: absolute;
-  left: 11%;
-  top: 22%;
+  left: 204px;
+  top: 170px;
   display: none;
 }
 
@@ -751,24 +751,24 @@ a:hover {
     left: 20px !important;
   }
 
+  .line-header_arrow {
+    /* top: 23%; */
+    left: 7px !important;
+  }
+
   .line-how-work-arrow {
     left: 7px !important;
-    top: 42%;
+    /* top: 42%; */
   }
 
   .line-futures-arrow {
     left: 7px !important;
-    top: 37%;
+    top: 450px;
   }
 
   .line-testimonials-arrow {
     left: 7px !important;
-    top: 21%;
-  }
-
-  .line-header_arrow {
-    top: 23%;
-    left: 7px !important;
+    /* top: 21%; */
   }
 
   .testimonials__slider {
@@ -804,21 +804,21 @@ a:hover {
 
   .line-how-work-arrow {
     left: 13px !important;
-    top: 42%;
+    /* top: 42%; */
   }
 
   .line-futures-arrow {
     left: 13px !important;
-    top: 37%;
+    top: 450px;
   }
 
   .line-testimonials-arrow {
     left: 13px !important;
-    top: 21%;
+    /* top: 21%; */
   }
 
   .line-header_arrow {
-    top: 23%;
+    /* top: 23%; */
     left: 13px !important;
   }
 
@@ -849,21 +849,21 @@ a:hover {
  
   .line-how-work-arrow {
     left: 57px !important;
-    top: 42%;
+    /* top: 42%; */
   }
 
   .line-futures-arrow {
     left: 57px !important;
-    top: 37%;
+    /* top: 37%; */
   }
 
   .line-testimonials-arrow {
     left: 57px !important;
-    top: 21%;
+    /* top: 21%; */
   }
 
   .line-header_arrow {
-    top: 22%;
+    /* top: 22%; */
     left: 57px !important;
   }
 
@@ -1006,17 +1006,6 @@ a:hover {
   -webkit-animation: shake 0.7s ease-out alternate infinite;
   animation: shake 0.7s ease-out alternate infinite;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @-webkit-keyframes show_dots {
   0% {
