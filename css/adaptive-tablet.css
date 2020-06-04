@@ -3,6 +3,7 @@
   .logo__mobile {
     content: url(/img/logo_tablet.png);
     width: 60px;
+    height: 60px;
     margin-left: -20px;
     margin-right: 20px;
   }
