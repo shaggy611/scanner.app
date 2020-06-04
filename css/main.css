@@ -188,6 +188,10 @@ a:hover {
   display: none;
 }
 
+.line-header_arrow > img {
+  width: 28px;
+}
+
 .line-how-work {
   height: 648.16px;
   width: 2px;
@@ -202,6 +206,10 @@ a:hover {
   left: 204px;
   top: 275px;
   display: none;
+}
+
+.line-how-work-arrow > img {
+  width: 28px;
 }
 
 .line-futures {
@@ -220,6 +228,10 @@ a:hover {
   display: none;
 }
 
+.line-futures-arrow > img {
+  width: 28px;
+}
+
 .line-testimonials {
   height: 877px;
   width: 2px;
@@ -234,6 +246,10 @@ a:hover {
   left: 204px;
   top: 170px;
   display: none;
+}
+
+.line-testimonials-arrow > img {
+  width: 28px;
 }
 
 .header__app-store-download_width {
@@ -418,6 +434,7 @@ a:hover {
 .feature__video-sign {
   position: absolute;
   left: -1.5%;
+  height: 642px !important;
 }
 
 .feature__video-turn-text {
@@ -505,8 +522,8 @@ a:hover {
   position: absolute;
   top: 2%;
   left: 5.5%;
-  /* background-color: #202020; */
-  background: url("/img/photo_screen_iphone.png") no-repeat 28% 50%;
+  background-color: #202020;
+  /* background: url("/img/photo_screen_iphone.png") no-repeat 28% 50%; */
   border-radius: 30px;
   -webkit-border-radius: 30px;
 }
