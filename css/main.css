@@ -45,6 +45,13 @@
 /*=================================================================*/
 
 /*  COMMON STYLES==================================================*/
+.transition_disabled {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 ._font-weight-600 {
   font-weight: 600;
 }
@@ -1048,10 +1055,10 @@ a:hover {
 ._appear_dots {
   -webkit-transition: 1s;
   -o-transition: 1s;
-  transition: 1s;
+  transition: opacity 1s;
   -webkit-animation: show 0.8s 1;
   animation: show_dots 0.8s 1;
-  /* animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   
@@ -1060,7 +1067,7 @@ a:hover {
 ._disappear_dots {
   -webkit-transition: 1s;
   -o-transition: 1s;
-  transition: 1s;
+  transition: opacity 1s;
   -webkit-animation: hide 0.8s 1;
   animation: hide_dots 0.8s 1;
   -webkit-animation-fill-mode: forwards;

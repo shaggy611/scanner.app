@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+  // $(window).resize(function() {
+  //   $(".wrapper").addClass("transition_disabled");
+  //   });
+    
   // let connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
   // console.log(connection.effectiveType);
   
