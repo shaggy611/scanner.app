@@ -313,19 +313,19 @@
   }
 
   .terms-of-use_heading {
-    max-width: 350px;
+    max-width: 89.34%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .term-of-use__paragraph {
-    max-width: 350px;
+    max-width: 89.34%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .terms-of-use_like-second-heading {
-    max-width: 350px;
+    max-width: 89.34%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -363,8 +363,6 @@
   }
 
   .top-menu__logo-wrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin-right: auto;
     margin-left: 10px;
   }
