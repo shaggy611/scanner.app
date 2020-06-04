@@ -64,32 +64,32 @@ $(document).ready(function () {
   $(".js-handler-for-hover").mouseenter(function (event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-scan");
     }
 
     if (hover_target.classList.contains("js-border-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-border");
     }
 
     if (hover_target.classList.contains("js-sign-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-sign");
     }
 
     if (hover_target.classList.contains("js-turn-text-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-turn-text");
     }
 
     if (hover_target.classList.contains("js-color-perspect-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-color");
     }
 
     if (hover_target.classList.contains("js-share-button")) {
-      $(".features__video-wrapper").addClass("_appear");
+      // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-share");
     }
   });
@@ -106,7 +106,7 @@ $(document).ready(function () {
   function play_video_iphone(video_tag) {
     $(video_tag)[0].play();
     $(video_tag)[0].autoplay = true;
-    $(".features__video-wrapper").addClass("_appear");
+    // $(".features__video-wrapper").addClass("_appear");
     $(video_tag).addClass("d-block");
   }
 
