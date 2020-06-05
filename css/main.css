@@ -434,13 +434,39 @@ a:hover {
 
 .feature__video-sign {
   position: absolute;
-  left: -1.5%;
+  left: 0.5%;
+  top: -11px;
   height: 642px !important;
+}
+
+.feature__video-share {
+  position: absolute;
+  left: 0.5%;
+  top: -5px; 
+}
+
+.feature__video-scan {
+  position: absolute;
+  left: 0.5%;
+  top: -5px; 
+}
+
+.feature__video-color {
+  position: absolute;
+  left: 0.5%;
+  top: -5px; 
+}
+
+.feature__video-border {
+  position: absolute;
+  left: 0.5%;
+  top: -5px; 
 }
 
 .feature__video-turn-text {
   position: absolute;
-  top: -1.5%;
+  left: 0.5%;
+  top: -11px;
   height: 642px !important;
 }
 
@@ -457,9 +483,6 @@ a:hover {
   margin-bottom: 57px;
 }
 
-.feature__video-share {
-  position: absolute;
-}
 .features__action-item-heading {
   font-family: "SF UI Display";
   font-weight: 700;
