@@ -16,6 +16,10 @@
     display: block !important;
   }
 
+  ._show-on-tablet-flex {
+    display: flex !important;
+  }
+
   ._margin-left-30 {
     margin-left: 70px;
   }
