@@ -119,11 +119,12 @@
   margin-bottom: 20px;
   display: block;
 }
-._image-width {
-  width: 112px !important;
-  height: 112px !important;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+._features-common-button-face {
+  width: 90px;
+  height: 90px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 section {
@@ -364,34 +365,43 @@ a:hover {
   margin-bottom: 63px;
 }
 
-.scan-button:hover {
-  content: url("/img/scan-features-blue.png");
+._features-common-button-face:hover {
+  background-color: linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   cursor: pointer;
+}
+
+.scan-button {
+  background-image: url(/img/scan.png);
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scan-button:hover {
+  background-image: url(/img/scan-hover.png);
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .border-button:hover {
-  content: url("/img/border-features-blue.png");
-  cursor: pointer;
+  
 }
 
 .sign-button:hover {
-  content: url("/img/sign-features-blue.png");
-  cursor: pointer;
+  
 }
 
 .turn-text-button:hover {
-  content: url("/img/turn-text-features-blue.png");
-  cursor: pointer;
+  
 }
 
 .color-perspect-button:hover {
-  content: url("/img/color-perspect-features-blue.png");
-  cursor: pointer;
+  
 }
 
 .share-button:hover {
-  content: url("/img/share-features-blue.png");
-  cursor: pointer;
+  
 }
 
 .header__scroll-down {
@@ -505,7 +515,7 @@ a:hover {
 }
 
 .features__action-item-info {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .features__action-item-first_height-margin {
