@@ -1,4 +1,8 @@
 @media (min-width: 375px) and (max-width: 767px) {
+  ._features-common-button-face {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .logo__mobile {
     content: url(/img/logo_mobile.png);
@@ -172,7 +176,7 @@
   }
 
   .features__action-item-first_height-margin {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 40px;
     height: 13%;
   }
@@ -199,12 +203,12 @@
   }
 
   .features__action-item-second_margin {
-    margin-bottom: 30px;
-    margin-top: 125px;
+    margin-bottom: 35px;
+    margin-top: 144px;
   }
 
   .features__action-item-heading {
-    margin-top: 18px;
+    margin-top: 30px;
     font-size: 20px;
   }
 
@@ -227,10 +231,10 @@
   }
 
   .features__action-item-second_margin-plus {
-    margin-top: 168px !important;
+    margin-top: 186px !important;
   }
 
-  ._app-store-btn-features-mobile {
+  ._app-store-btn-features {
     margin-top: -79px !important;
   }
 

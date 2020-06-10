@@ -45,6 +45,10 @@
 /*=================================================================*/
 
 /*  COMMON STYLES==================================================*/
+._app-store-btn-features > img {
+  width: 222px;
+  height: 74px;
+}
 
 .transition_disabled {
   -webkit-transition: none !important;
@@ -122,7 +126,6 @@
 ._features-common-button-face {
   width: 90px;
   height: 90px;
-  background: #FFFFFF;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
@@ -366,42 +369,80 @@ a:hover {
 }
 
 ._features-common-button-face:hover {
-  background-color: linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   cursor: pointer;
-}
+  /* background: linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%); */
+} 
 
 .scan-button {
-  background-image: url(/img/scan.png);
+  background: url(/img/scan.png), #FFFFFF;
   background-size: 38px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .scan-button:hover {
-  background-image: url(/img/scan-hover.png);
+  background: url(/img/scan-hover.png) no-repeat center, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
+}
+
+.border-button {
+  background: url(/img/border.png), #FFFFFF;
   background-size: 38px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .border-button:hover {
-  
+  background: url(/img/border-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
+}
+
+.sign-button {
+  background: url(/img/sign.png), #FFFFFF;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sign-button:hover {
-  
+  background: url(/img/sign-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
+}
+
+.turn-text-button {
+  background: url(/img/ocr.png), #FFFFFF;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .turn-text-button:hover {
-  
+  background: url(/img/ocr-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
+}
+
+.color-perspect-button {
+  background: url(/img/folder.png), #FFFFFF;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .color-perspect-button:hover {
-  
+  background: url(/img/folder-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
+}
+
+.share-button {
+  background: url(/img/save.png), #FFFFFF;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .share-button:hover {
-  
+  background: url(/img/save-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
+  background-size: 38px;
 }
 
 .header__scroll-down {
@@ -518,6 +559,10 @@ a:hover {
   margin-right: 20px;
 }
 
+.features__action-item-info-second {
+  margin-right: 0;
+}
+
 .features__action-item-first_height-margin {
   margin-top: 60px;
   margin-bottom: 105px;
@@ -573,7 +618,7 @@ a:hover {
 }
 
 .features__action-item-img_margin {
-  margin-right: 9px;
+  margin-right: 20px;
 }
 
 .testimonials_padding {
