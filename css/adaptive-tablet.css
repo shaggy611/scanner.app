@@ -386,10 +386,18 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
+  ._features-common-button-face {
+    height: 75px;
+    /* width: 88px; */
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
   ._features-common-button-face {
     height: 80px;
-    width: 88px;
+    /* width: 88px; */
     margin-top: 10px;
   }
 }
