@@ -126,7 +126,8 @@
 ._features-common-button-face {
   width: 90px;
   height: 90px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
@@ -311,7 +312,6 @@ a:hover {
 }
 .top-menu__menu-body {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 100px;
@@ -382,6 +382,8 @@ a:hover {
 }
 
 .scan-button:hover {
+  background: url(/img/scan-hover.png) no-repeat center, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/scan-hover.png) no-repeat center, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/scan-hover.png) no-repeat center, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -394,6 +396,8 @@ a:hover {
 }
 
 .border-button:hover {
+  background: url(/img/border-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/border-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/border-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -406,6 +410,8 @@ a:hover {
 }
 
 .sign-button:hover {
+  background: url(/img/sign-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/sign-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/sign-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -418,6 +424,8 @@ a:hover {
 }
 
 .turn-text-button:hover {
+  background: url(/img/ocr-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/ocr-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/ocr-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -430,6 +438,8 @@ a:hover {
 }
 
 .color-perspect-button:hover {
+  background: url(/img/folder-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/folder-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/folder-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -442,6 +452,8 @@ a:hover {
 }
 
 .share-button:hover {
+  background: url(/img/save-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/save-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/save-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
 }
@@ -641,7 +653,6 @@ a:hover {
   background: #ffffff;
   -webkit-box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
   box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   width: 380px !important;
   display: block;
@@ -675,7 +686,6 @@ a:hover {
 .testimonials__slider-item-rate {
   margin-left: 30px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -896,7 +906,6 @@ a:hover {
 @media (min-width: 1300px) and (max-width: 1500px) {
   .top-menu__menu-body {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     height: 70px;
@@ -1152,10 +1161,13 @@ a:hover {
 ._appear_dots {
   -webkit-transition: 1s;
   -o-transition: 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
   transition: opacity 1s;
   -webkit-animation: show 0.8s 1;
   animation: show_dots 0.8s 1;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   
@@ -1164,6 +1176,8 @@ a:hover {
 ._disappear_dots {
   -webkit-transition: 1s;
   -o-transition: 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
   transition: opacity 1s;
   -webkit-animation: hide 0.8s 1;
   animation: hide_dots 0.8s 1;
