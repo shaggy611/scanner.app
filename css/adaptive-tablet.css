@@ -385,3 +385,11 @@
     margin-top: 26px !important;
   }
 }
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  ._features-common-button-face {
+    height: 80px;
+    width: 88px;
+    margin-top: 10px;
+  }
+}
