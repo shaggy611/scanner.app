@@ -1,4 +1,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  .feature__video-scan-tablet > img {
+    width: 200px;
+    height: 100px;
+  }
 
   ._features-common-button-face {
     margin-left: auto;

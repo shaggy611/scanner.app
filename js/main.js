@@ -21,7 +21,7 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1200,
@@ -131,7 +131,6 @@ $(document).ready(function () {
     console.log("bla");
     $(".js-feature__video-scan-tablet").hide();
     if (hover_target.classList.contains("js-scan-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
       console.log("blabla");
       $(".js-feature__video-scan-tablet").show();
       $(".js-feature__video-border-tablet").hide();
