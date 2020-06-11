@@ -117,17 +117,21 @@
     background-position: 20% 27%;
     height: auto;
     margin-bottom: 60px;
+    background-size: 105px;
   }
 
   .how-work__item-save {
     background-position: 20% 20%;
     height: auto;
     margin-bottom: 60px;
+    background-size: 100px;
   }
 
   .how-work__item-upload {
+    background-image: url(/img/three-bg.png);
     background-position: 20% 20%;
     height: auto;
+    background-size: 95px;
   }
 
   .how-work__heading {

@@ -148,8 +148,10 @@
   }
 
   .how-work__item-upload {
-    background-position: -5% 20%;
+    background-image: url(/img/three-bg.png);
+    background-position: -1% 20%;
     height: auto;
+    background-size: 100px;
   }
 
   .how-work__heading {
