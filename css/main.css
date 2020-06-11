@@ -517,13 +517,13 @@ a:hover {
 
 .feature__video-color {
   position: absolute;
-  left: 0.5%;
+  left: -0.5%;
   top: -5px; 
 }
 
 .feature__video-border {
   position: absolute;
-  left: 0.5%;
+  left: -0.5%;
   top: -5px; 
 }
 
