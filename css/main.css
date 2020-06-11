@@ -664,6 +664,7 @@ a:hover {
   margin-right: 15px !important;
   z-index: 100;
   position: relative;
+  height: 259px;
 }
 
 .testimonials__slider-item-photo {

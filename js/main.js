@@ -12,8 +12,56 @@ $(document).ready(function () {
     //   video_block.remove();
     // }
 
-  // Animation with buttons and Video playing===================================
+   // SLIDER INITIALIZATION==================================================
+   $(".js-slider").slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true
+        }
+      }
+    ]
+  });
+// ===========================================================================
 
+  // Animation with buttons and Video playing===================================
   $(".js-handler-for-hover").mouseenter(function (event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
@@ -106,54 +154,6 @@ $(document).ready(function () {
     if ($(window).scrollTop() > 1350) {
       features_arrow.addClass("_appear_dots");
       features_arrow.show();
-        // SLIDER INITIALIZATION==================================================
-                $(".js-slider").slick({
-                  dots: true,
-                  arrows: false,
-                  infinite: true,
-                  speed: 300,
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 3000,
-                  responsive: [
-                    {
-                      breakpoint: 1200,
-                      settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                      }
-                    },
-                    {
-                      breakpoint: 1024,
-                      settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                      }
-                    },
-                    {
-                      breakpoint: 767,
-                      settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        dots: true
-                      }
-                    },
-                    {
-                      breakpoint: 480,
-                      settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        dots: true
-                      }
-                    }
-                  ]
-                });
-  // ===========================================================================
     };
 
   });
