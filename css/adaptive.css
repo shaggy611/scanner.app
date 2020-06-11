@@ -1,3 +1,390 @@
+@media (min-width: 320px) and (max-width: 374px) {
+  .slick-dots {
+    max-width: 320px;
+  }
+  ._features-common-button-face {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo__mobile {
+    content: url(/img/logo_mobile.png);
+    width: 58px;
+  }
+
+  ._mobile-img-width {
+    width: 47px;
+  }
+
+  ._hide-on-desktop-mobile {
+    display: none;
+  }
+
+  ._hide-on-mobile {
+    display: none;
+  }
+
+  ._paragraph-main-font-mobile {
+    font-family: "SF UI Display";
+    font-size: 16px;
+    line-height: 26px;
+    width: 188px;
+  }
+
+  ._block-main-heading-style {
+    font-size: 30px;
+    line-height: 4px;
+  }
+
+  ._header-footer-heading {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 46px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header__app-store-download_width {
+    max-width: 170px;
+  }
+
+  .header_background-color-patterns {
+    background: url("/img/down-wave-pattern-mobile.png") no-repeat,
+      url("/img/up-wave-pattern-mobile.png") no-repeat left 320%, #09090b;
+  }
+
+  .header_padding {
+    padding-bottom: 44px;
+    padding-top: 44px;
+  }
+
+  .header__app-slogan_font {
+    font-family: "SF UI Display";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+    margin-left: 0;
+    display: block;
+    margin-top: 15px;
+  }
+
+  .header__slogan-wrapper {
+    margin-bottom: 37px;
+  }
+
+  .header__heading {
+    margin-bottom: 20px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__paragraph {
+    width: 300px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__banner-img_position {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 273px !important;
+    margin-top: 39px;
+  }
+
+  .header__scroll-down {
+    display: none;
+  }
+
+  .top-menu {
+    display: none !important;
+  }
+
+  .how-work_padding {
+    padding-top: 80px;
+    padding-bottom: 75px;
+  }
+
+  .how-work__paragraph {
+    display: none;
+  }
+
+  .how-work__item-scan {
+    background-position: 13% 27%;
+    height: auto;
+    margin-bottom: 60px;
+    background-size: 105px;
+  }
+
+  .how-work__item-save {
+    background-position: 13% 20%;
+    height: auto;
+    margin-bottom: 60px;
+    background-size: 100px;
+  }
+
+  .how-work__item-upload {
+    background-image: url(/img/three-bg.png);
+    background-position: 12% 20%;
+    height: auto;
+    background-size: 95px;
+  }
+
+  .how-work__heading {
+    margin-bottom: 65px;
+  }
+
+  .how-work__item-save > img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .how-work__item-scan > img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .how-work__item-upload > img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .features_padding {
+    padding-top: 79px;
+    padding-bottom: 79px;
+  }
+
+  .features__heading {
+    margin-bottom: 40px;
+  }
+
+  .features__iphone-video-wrapper {
+    display: none !important;
+  }
+
+  .features__action-item-paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 302px !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features__action-item-paragraph-first {
+    max-width: 295px !important;
+  }
+
+  .features__action-item-first_height-margin {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 13%;
+  }
+
+  .features__action-item-mobile {
+    max-width: 375px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features__action-item-mobile > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .features__action-item-info {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center !important;
+  }
+
+  .features__action-item-second_margin {
+    margin-bottom: 35px;
+    margin-top: 144px;
+  }
+
+  .features__action-item-heading {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .features__action-item-heading-turn-txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 182px;
+  }
+
+  .features__action-item-heading-color {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 183px;
+  }
+
+  .features__action-item-first_minus-margin {
+    margin-top: -62px !important;
+  }
+
+  .features__action-item-second_margin-plus {
+    margin-top: 186px !important;
+  }
+
+  ._app-store-btn-features {
+    margin-top: -79px !important;
+  }
+
+  .testimonials_padding {
+    padding-top: 80px;
+    padding-bottom: 68px;
+  }
+
+  .testimonials__slider-item {
+    width: 284px !important;
+    margin-left: 18px !important;
+    margin-right: 15px !important;
+  }
+  .testimonials__slider {
+    width: 375px;
+  }
+
+  .testimonials__slider-item-comment {
+    width: 240px;
+  }
+
+  .footer__heading {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  ._app-store-btn-footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 234px;
+    display: block;
+    /* margin-bottom: 45px; */
+  }
+
+  .footer__heading {
+    margin-bottom: 40px;
+  }
+
+  .footer__iphones-img {
+    position: static;
+    max-width: 290px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .footer_padding {
+    padding-top: 70px;
+  }
+
+  .footer__terms {
+    text-align: center !important;
+  }
+
+  .footer_background {
+    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left
+        bottom,
+      url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
+      #09090b;
+  }
+
+  .footer__copyright {
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-align: center !important;
+    font-size: 14px;
+    margin-top: 1px;
+  }
+
+  .terms-footer__terms,
+  .terms-footer__terms > a {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 87px;
+    text-align: center !important;
+  }
+
+  .terms-of-use_heading {
+    max-width: 89.34%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .term-of-use__paragraph {
+    max-width: 89.34%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .terms-of-use_like-second-heading {
+    max-width: 89.34%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .top-menu__menu-body {
+    height: 67px;
+  }
+
+  .top-menu__app-slogan_font {
+    font-size: 18px;
+  }
+  ._margin-right-tablet-mobile-10 {
+    margin-right: 0 !important;
+  }
+
+  ._margin-left-tablet-mobile-10 {
+    margin-left: 10px !important;
+  }
+
+  .terms__list {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+  }
+
+  .terms-page__footer_margin-mobile {
+    margin-top: 0 !important;
+    margin-bottom: 26px;
+  }
+
+  .terms-page-top-menu__menu-body {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+
+  .top-menu__logo-wrapper {
+    margin-right: auto;
+    margin-left: 10px;
+  }
+
+  .top-menu__apple-store-wrapper {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 767px) {
   ._features-common-button-face {
     margin-left: auto;
