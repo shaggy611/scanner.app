@@ -62,46 +62,134 @@ $(document).ready(function () {
 // ===========================================================================
 
   // Animation with buttons and Video playing===================================
+  play_video_iphone(".js-feature__video-scan");
   $(".js-handler-for-hover").mouseenter(function (event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-color");
+      stop_video_iphone(".js-feature__video-share");
     }
 
     if (hover_target.classList.contains("js-border-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-color");
+      stop_video_iphone(".js-feature__video-share");
     }
 
     if (hover_target.classList.contains("js-sign-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-color");
+      stop_video_iphone(".js-feature__video-share");
     }
 
     if (hover_target.classList.contains("js-turn-text-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-color");
+      stop_video_iphone(".js-feature__video-share");
     }
 
     if (hover_target.classList.contains("js-color-perspect-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-color");
+      stop_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-share");
     }
 
     if (hover_target.classList.contains("js-share-button")) {
       // $(".features__video-wrapper").addClass("_appear");
       play_video_iphone(".js-feature__video-share");
+      stop_video_iphone(".js-feature__video-scan");
+      stop_video_iphone(".js-feature__video-border");
+      stop_video_iphone(".js-feature__video-sign");
+      stop_video_iphone(".js-feature__video-turn-text");
+      stop_video_iphone(".js-feature__video-color");
     }
   });
 
-  $(".js-handler-for-hover").mouseleave(function (event) {
-    stop_video_iphone(".js-feature__video-scan");
-    stop_video_iphone(".js-feature__video-border");
-    stop_video_iphone(".js-feature__video-sign");
-    stop_video_iphone(".js-feature__video-turn-text");
-    stop_video_iphone(".js-feature__video-color");
-    stop_video_iphone(".js-feature__video-share");
+  $(".js-handler-for-hover-tablet").on("click", function (event) {
+    let hover_target = event.target;
+    console.log("bla");
+    $(".js-feature__video-scan-tablet").hide();
+    if (hover_target.classList.contains("js-scan-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      console.log("blabla");
+      $(".js-feature__video-scan-tablet").show();
+      $(".js-feature__video-border-tablet").hide();
+      $(".js-feature__video-sign-tablet").hide();
+      $(".js-feature__video-turn-text-tablet").hide();
+      $(".js-feature__video-color-tablet").hide();
+      $(".js-feature__video-share-tablet").hide();
+    }
+
+    if (hover_target.classList.contains("js-border-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-border-tablet").show();
+      $(".js-feature__video-scan-tablet").hide();
+      $(".js-feature__video-sign-tablet").hide();
+      $(".js-feature__video-turn-text-tablet").hide();
+      $(".js-feature__video-color-tablet").hide();
+      $(".js-feature__video-share-tablet").hide();
+    }
+
+    if (hover_target.classList.contains("js-sign-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-sign-tablet").show();
+      $(".js-feature__video-scan-tablet").hide();
+      $(".js-feature__video-border-tablet").hide();
+      $(".js-feature__video-turn-text-tablet").hide();
+      $(".js-feature__video-color-tablet").hide();
+      $(".js-feature__video-share-tablet").hide();
+    }
+
+    if (hover_target.classList.contains("js-turn-text-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-turn-text-tablet").show();
+      $(".js-feature__video-scan-tablet").hide();
+      $(".js-feature__video-border-tablet").hide();
+      $(".js-feature__video-sign-tablet").hide();
+      $(".js-feature__video-color-tablet").hide();
+      $(".js-feature__video-share-tablet").hide();
+    }
+
+    if (hover_target.classList.contains("js-color-perspect-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-color-tablet").show();
+      $(".js-feature__video-scan-tablet").hide();
+      $(".js-feature__video-border-tablet").hide();
+      $(".js-feature__video-sign-tablet").hide();
+      $(".js-feature__video-turn-text-tablet").hide();
+      $(".js-feature__video-share-tablet").hide();
+    }
+
+    if (hover_target.classList.contains("js-share-button")) {
+      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-share-tablet").show();
+      $(".js-feature__video-scan-tablet").hide();
+      $(".js-feature__video-border-tablet").hide();
+      $(".js-feature__video-sign-tablet").hide();
+      $(".js-feature__video-turn-text-tablet").hide();
+      $(".js-feature__video-color-tablet").hide();
+    }
   });
 
   function play_video_iphone(video_tag) {

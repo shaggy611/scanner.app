@@ -14,7 +14,7 @@
   }
 
   ._hide-on-tablet {
-    display: none;
+    display: none !important;
   }
 
   ._show-on-tablet {
