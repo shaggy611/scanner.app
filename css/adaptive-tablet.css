@@ -1,7 +1,44 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .feature__video-scan-tablet > img {
-    width: 200px;
-    height: 100px;
+    width: 288px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+  }
+
+  .feature__video-border-tablet > img {
+    width: 288px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+  }
+
+  .feature__video-sign-tablet > img {
+    width: 288px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+  }
+
+  .feature__video-turn-text-tablet > img {
+    width: 288px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+  }
+
+  .feature__video-color-tablet > img {
+    width: 288px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+  }
+
+  .feature__video-share-tablet > img {
+    width: 283px;
+    top: 1%;
+    left: 1%;
+    position: absolute;
   }
 
   ._features-common-button-face {
