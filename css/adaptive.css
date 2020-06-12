@@ -417,12 +417,55 @@
     margin-right: 10px;
     margin-left: auto;
   }
+  .scan-button:hover {
+    background: url(/img/scan.png), #FFFFFF;
+    background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.border-button:hover {
+  background: url(/img/border.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sign-button:hover {
+  background: url(/img/sign.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.turn-text-button:hover {
+  background: url(/img/ocr.png), #FFFFFF;
+  background-size: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.color-perspect-button:hover {
+  background: url(/img/folder.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.share-button:hover {
+  background: url(/img/save.png), #FFFFFF;
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
   ._features-common-button-face {
     margin-left: auto;
     margin-right: auto;
+    width: 70px;
+    height: 70px;
   }
 
   .logo__mobile {
@@ -801,4 +844,70 @@
     margin-right: 10px;
     margin-left: auto;
   }
+
+  .scan-button:hover {
+    background: url(/img/scan.png), #FFFFFF;
+    background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.border-button:hover {
+  background: url(/img/border.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sign-button:hover {
+  background: url(/img/sign.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.turn-text-button:hover {
+  background: url(/img/ocr.png), #FFFFFF;
+  background-size: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.color-perspect-button:hover {
+  background: url(/img/folder.png), #FFFFFF;
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.share-button:hover {
+  background: url(/img/save.png), #FFFFFF;
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scan-button {
+  background-size: 34px !important;
+}
+
+.border-button {
+  background-size: 34px;;
+}
+
+.sign-button {
+  background-size: 34px;
+}
+
+.turn-text-button {
+  background-size: 36px;
+}
+
+.color-perspect-button {
+  background-size: 34px;
+}
+
+.share-button {
+  background-size: 32px;
+}
 }
