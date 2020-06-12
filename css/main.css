@@ -382,7 +382,7 @@ a:hover {
 }
 
 .scan-button:hover {
-  background: url(/img/scan-hover.png) no-repeat center, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/scan-hover.png) no-repeat center, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/scan-hover.png) no-repeat center, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/scan-hover.png) no-repeat center, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
@@ -396,7 +396,7 @@ a:hover {
 }
 
 .border-button:hover {
-  background: url(/img/border-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/border-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/border-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/border-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
@@ -410,7 +410,7 @@ a:hover {
 }
 
 .sign-button:hover {
-  background: url(/img/sign-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/sign-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/sign-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/sign-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
@@ -424,7 +424,7 @@ a:hover {
 }
 
 .turn-text-button:hover {
-  background: url(/img/ocr-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/ocr-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/ocr-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/ocr-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
@@ -438,7 +438,7 @@ a:hover {
 }
 
 .color-perspect-button:hover {
-  background: url(/img/folder-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/folder-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/folder-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/folder-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
@@ -452,7 +452,7 @@ a:hover {
 }
 
 .share-button:hover {
-  background: url(/img/save-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
+  background: url(/img/save-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
   background: url(/img/save-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
   background: url(/img/save-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
   background-size: 38px;
