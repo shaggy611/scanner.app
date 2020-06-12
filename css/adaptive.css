@@ -762,7 +762,7 @@
 
   .footer_background {
     background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left
-        bottom,
+        69%,
       url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
       #09090b;
   }
