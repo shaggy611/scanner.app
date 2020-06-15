@@ -568,7 +568,7 @@ a:hover {
 
 .feature__video-scan {
   position: absolute;
-  left: 0.5%;
+  left: -0.5%;
   top: -5px; 
 }
 
