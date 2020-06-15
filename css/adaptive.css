@@ -847,26 +847,37 @@
 
   .scan-button{
     pointer-events: none;
+    touch-action: none;
 }
 
 .border-button {
   pointer-events: none;
+  -ms-touch-action: none;
+        touch-action: none;
 }
 
 .sign-button {
   pointer-events: none;
+  -ms-touch-action: none;
+        touch-action: none;
 }
 
 .turn-text-button {
   pointer-events: none;
+  -ms-touch-action: none;
+        touch-action: none;
 }
 
 .color-perspect-button {
   pointer-events: none;
+  -ms-touch-action: none;
+        touch-action: none;
 }
 
 .share-button {
   pointer-events: none;
+  -ms-touch-action: none;
+        touch-action: none;
 }
 
 .scan-button {
