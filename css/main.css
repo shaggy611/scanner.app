@@ -127,8 +127,11 @@
   width: 90px;
   height: 90px;
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+          -moz-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+       box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
 }
 
 section {
@@ -307,12 +310,15 @@ a:hover {
 .top-menu {
   background: #f7f9ff;
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   display: none;
 }
 .top-menu__menu-body {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
   height: 100px;
 }
@@ -376,22 +382,20 @@ a:hover {
 
 .scan-button {
   background: url(/img/scan.png), #FFFFFF;
-  background-size: 38px;
+  -webkit-background-size: 38px 38px;
+     -moz-background-size: 38px;
+       -o-background-size: 38px;
+          background-size: 38px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .scan-button:hover {
-  background: url(/img/scan-hover.png) no-repeat center, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/scan-hover.png) no-repeat center, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/scan-hover.png) no-repeat center, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/scan-hover.png) no-repeat center, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/scan-hover.png) no-repeat center, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/scan-hover.png) no-repeat center, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/scan-hover.svg) no-repeat center, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/scan-hover.svg) no-repeat center, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/scan-hover.svg) no-repeat center, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/scan-hover.svg) no-repeat center, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/scan-hover.svg) no-repeat center, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .border-button {
@@ -405,16 +409,11 @@ a:hover {
 }
 
 .border-button:hover {
-  background: url(/img/border-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/border-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/border-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/border-hover.png) center no-repeat, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/border-hover.png) center no-repeat, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/border-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/border-hover.svg) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/border-hover.svg) center no-repeat, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/border-hover.svg) center no-repeat, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/border-hover.svg) center no-repeat, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/border-hover.svg) center no-repeat, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .sign-button {
@@ -428,16 +427,11 @@ a:hover {
 }
 
 .sign-button:hover {
-  background: url(/img/sign-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/sign-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/sign-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/sign-hover.png) center no-repeat, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/sign-hover.png) center no-repeat, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/sign-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/sign-hover.svg) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/sign-hover.svg) center no-repeat, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/sign-hover.svg) center no-repeat, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/sign-hover.svg) center no-repeat, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/sign-hover.svg) center no-repeat, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .turn-text-button {
@@ -451,16 +445,11 @@ a:hover {
 }
 
 .turn-text-button:hover {
-  background: url(/img/ocr-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/ocr-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/ocr-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/ocr-hover.png) center no-repeat, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/ocr-hover.png) center no-repeat, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/ocr-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/ocr-hover.svg) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/ocr-hover.svg) center no-repeat, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/ocr-hover.svg) center no-repeat, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/ocr-hover.svg) center no-repeat, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/ocr-hover.svg) center no-repeat, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .color-perspect-button {
@@ -474,16 +463,11 @@ a:hover {
 }
 
 .color-perspect-button:hover {
-  background: url(/img/folder-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/folder-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/folder-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/folder-hover.png) center no-repeat, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/folder-hover.png) center no-repeat, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/folder-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/folder-hover.svg) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/folder-hover.svg) center no-repeat, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/folder-hover.svg) center no-repeat, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/folder-hover.svg) center no-repeat, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/folder-hover.svg) center no-repeat, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .share-button {
@@ -497,16 +481,11 @@ a:hover {
 }
 
 .share-button:hover {
-  background: url(/img/save-hover.png) center no-repeat, -webkit-linear-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/save-hover.png) center no-repeat, -o-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/save-hover.png) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#5383EC), to(#1B5CEB));
-  background: url(/img/save-hover.png) center no-repeat, -webkit-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/save-hover.png) center no-repeat, -moz-linear-gradient(top, #5383EC 0%, #1B5CEB 100%);
-  background: url(/img/save-hover.png) center no-repeat, linear-gradient(180deg, #5383EC 0%, #1B5CEB 100%);
-  -webkit-background-size: 38px 38px;
-     -moz-background-size: 38px;
-       -o-background-size: 38px;
-          background-size: 38px;
+  background: url(/img/save-hover.svg) center no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
+  background: url(/img/save-hover.svg) center no-repeat, -webkit-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/save-hover.svg) center no-repeat, -moz-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/save-hover.svg) center no-repeat, -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
+  background: url(/img/save-hover.svg) center no-repeat, linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
 }
 
 .header__scroll-down {
@@ -667,7 +646,8 @@ a:hover {
   left: 5.5%;
   background-color: #202020;
   /* background: url("/img/photo_screen_iphone.png") no-repeat 28% 50%; */
-  border-radius: 30px;
+  -moz-border-radius: 30px;
+       border-radius: 30px;
   -webkit-border-radius: 30px;
 }
 
@@ -677,7 +657,8 @@ a:hover {
 }
 
 .features__video_border-radius {
-  border-radius: 30px;
+  -moz-border-radius: 30px;
+       border-radius: 30px;
   -webkit-border-radius: 30px;
 }
 
@@ -700,14 +681,19 @@ a:hover {
   margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
 }
 
 .testimonials__slider-item {
   background: #ffffff;
   -webkit-box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
-  border-radius: 5px;
+  -moz-box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
+       box-shadow: 0px 8px 20px rgba(128, 125, 125, 0.2);
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
   width: 380px !important;
   display: block;
   padding-top: 40px;
@@ -742,6 +728,8 @@ a:hover {
   margin-left: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
   display: flex;
 }
 
@@ -802,7 +790,8 @@ a:hover {
 .terms-top-menu {
   background: #f7f9ff;
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .terms-footer__copyright {
@@ -962,6 +951,8 @@ a:hover {
   .top-menu__menu-body {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
     height: 70px;
   }
@@ -1064,6 +1055,24 @@ a:hover {
   }
 }
 
+@-moz-keyframes show {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-o-keyframes show {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
 @keyframes show {
   0% {
     top: -100px;
@@ -1074,6 +1083,26 @@ a:hover {
 }
 
 @-webkit-keyframes hide {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100px;
+    /* display: none !important; */
+  }
+}
+
+@-moz-keyframes hide {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100px;
+    /* display: none !important; */
+  }
+}
+
+@-o-keyframes hide {
   0% {
     top: 0;
   }
@@ -1096,25 +1125,37 @@ a:hover {
 ._appear {
   -webkit-transition: 1s;
   -o-transition: 1s;
+  -moz-transition: 1s;
   transition: 1s;
   -webkit-animation: show 0.8s 1;
-  animation: show 0.8s 1;
+  -moz-animation: show 0.8s 1;
+    -o-animation: show 0.8s 1;
+       animation: show 0.8s 1;
   /* animation-fill-mode: forwards; */
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+       animation-delay: 0s;
   
 }
 
 ._disappear {
   -webkit-transition: 1s;
   -o-transition: 1s;
+  -moz-transition: 1s;
   transition: 1s;
   -webkit-animation: hide 0.8s 1;
-  animation: hide 0.8s 1;
+  -moz-animation: hide 0.8s 1;
+    -o-animation: hide 0.8s 1;
+       animation: hide 0.8s 1;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+          -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+       animation-delay: 0s;
  
 }
 
@@ -1134,6 +1175,52 @@ a:hover {
   50% {
     position: relative;
     top: -10%;
+  }
+  0% {
+    position: relative;
+    top: -17%;
+  }
+}
+
+@-moz-keyframes shake {
+  0% {
+    position: relative;
+    top: -17%;
+  }
+  50% {
+    position: relative;
+    top: -8%;
+  }
+  100% {
+    position: relative;
+    top: 5%;
+  }
+  50% {
+    position: relative;
+    top: -8%;
+  }
+  0% {
+    position: relative;
+    top: -17%;
+  }
+}
+
+@-o-keyframes shake {
+  0% {
+    position: relative;
+    top: -17%;
+  }
+  50% {
+    position: relative;
+    top: -8%;
+  }
+  100% {
+    position: relative;
+    top: 5%;
+  }
+  50% {
+    position: relative;
+    top: -8%;
   }
   0% {
     position: relative;
@@ -1170,12 +1257,33 @@ a:hover {
   top: -17%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
+  -moz-transition: 0.5s;
   transition: 0.5s;
   -webkit-animation: shake 0.7s ease-out alternate infinite;
-  animation: shake 0.7s ease-out alternate infinite;
+  -moz-animation: shake 0.7s ease-out alternate infinite;
+    -o-animation: shake 0.7s ease-out alternate infinite;
+       animation: shake 0.7s ease-out alternate infinite;
 }
 
 @-webkit-keyframes show_dots {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes show_dots {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes show_dots {
   0% {
     opacity: 0;
   }
@@ -1203,6 +1311,26 @@ a:hover {
   }
 }
 
+@-moz-keyframes hide_dots {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none !important;
+  }
+}
+
+@-o-keyframes hide_dots {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none !important;
+  }
+}
+
 @keyframes hide_dots {
   0% {
     opacity: 1;
@@ -1218,13 +1346,20 @@ a:hover {
   -o-transition: 1s;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
+  -moz-transition: opacity 1s;
   transition: opacity 1s;
   -webkit-animation: show 0.8s 1;
-  animation: show_dots 0.8s 1;
+  -moz-animation: show_dots 0.8s 1;
+    -o-animation: show_dots 0.8s 1;
+       animation: show_dots 0.8s 1;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+          -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+       animation-delay: 0s;
   
 }
 
@@ -1233,12 +1368,19 @@ a:hover {
   -o-transition: 1s;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
+  -moz-transition: opacity 1s;
   transition: opacity 1s;
   -webkit-animation: hide 0.8s 1;
-  animation: hide_dots 0.8s 1;
+  -moz-animation: hide_dots 0.8s 1;
+    -o-animation: hide_dots 0.8s 1;
+       animation: hide_dots 0.8s 1;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+          -moz-animation-fill-mode: forwards;
+            -o-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+       animation-delay: 0s;
  
 }
