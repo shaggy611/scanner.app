@@ -45,6 +45,33 @@
 /*=================================================================*/
 
 /*  COMMON STYLES==================================================*/
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+outline: 0!important;
+outline-color: transparent!important;
+outline-width: 0!important;
+outline-style: none!important;
+-webkit-box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+   -moz-box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+        box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
+
 ._app-store-btn-features > img {
   width: 222px;
   height: 74px;
@@ -607,13 +634,13 @@ a:hover {
 }
 
 .features__action-item-first_height-margin {
-  margin-top: 60px;
-  margin-bottom: 105px;
+  margin-top: 70px;
+  margin-bottom: 119px;
   height: 13%;
 }
 
 .features__action-item-second_margin {
-  margin-bottom: 89px;
+  margin-bottom: 110px;
 }
 
 .features__iphone-video-wrapper {
