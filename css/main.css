@@ -1,3 +1,4 @@
+
 /*FONTS============================================================*/
 
 @font-face {
@@ -169,6 +170,7 @@ section {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 ._margin-top-70 {
