@@ -1,7 +1,23 @@
 @media (min-width: 320px) and (max-width: 374px) {
-  div {
+
+  .how-work {
+    pointer-events: none !important;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .features__action-item-mobile {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .scan-button {
@@ -1063,8 +1079,24 @@
          -o-background-size: 32px;
             background-size: 32px;
   }
-  div {
+
+  .features__action-item-mobile {
+    pointer-events: none !important;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .how-work {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 }
