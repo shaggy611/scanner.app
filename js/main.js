@@ -15,7 +15,6 @@ $(document).ready(function () {
 
     $("div").dblclick(function (event) {
       event.preventDefault();
-      console.log("hello");
     })
 
    // SLIDER INITIALIZATION==================================================
