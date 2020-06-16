@@ -1,4 +1,73 @@
 @media (min-width: 320px) and (max-width: 374px) {
+  div {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .scan-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+        touch-action: manipulation !important;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+  }
+
+  .border-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .sign-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .turn-text-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .color-perspect-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+
+  .share-button {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
   .slick-dots {
     max-width: 320px;
   }
@@ -900,7 +969,7 @@
 
   .scan-button {
     pointer-events: none !important;
-    -ms-touch-action: manipulation;
+    -ms-touch-action: manipulation !important;
         touch-action: manipulation !important;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -911,7 +980,7 @@
   .border-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-    touch-action: manipulation;
+    touch-action: manipulation !important;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -921,7 +990,7 @@
   .sign-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-    touch-action: manipulation;
+    touch-action: manipulation !important;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -931,7 +1000,7 @@
   .turn-text-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-    touch-action: manipulation;
+    touch-action: manipulation !important;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -941,7 +1010,7 @@
   .color-perspect-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-    touch-action: manipulation;
+    touch-action: manipulation !important;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -951,7 +1020,7 @@
   .share-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-    touch-action: manipulation;
+    touch-action: manipulation !important;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -998,5 +1067,14 @@
        -moz-background-size: 32px;
          -o-background-size: 32px;
             background-size: 32px;
+  }
+  div {
+    pointer-events: none !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 }
