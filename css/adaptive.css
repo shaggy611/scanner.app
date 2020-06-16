@@ -14,7 +14,7 @@
   }
 
   .border-button {
-    background-size: 34px;;
+    background-size: 34px;
   }
 
   .sign-button {
@@ -222,8 +222,8 @@
   .features__action-item-mobile {
     max-width: 375px;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
   }
@@ -332,8 +332,7 @@
   }
 
   .footer_background {
-    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat -18%
-        70%,
+    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat -18% 70%,
       url("/img/footer-down-wave-pattern-mobile.png") no-repeat 108% top,
       #09090b;
   }
@@ -403,8 +402,8 @@
 
   .terms-page-top-menu__menu-body {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .top-menu__logo-wrapper {
@@ -418,46 +417,46 @@
     margin-left: auto;
   }
   .scan-button:hover {
-    background: url(/img/scan.png), #FFFFFF;
+    background: url(/img/scan.png), #ffffff;
     background-size: 34px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.border-button:hover {
-  background: url(/img/border.png), #FFFFFF;
-  background-size: 34px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .border-button:hover {
+    background: url(/img/border.png), #ffffff;
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.sign-button:hover {
-  background: url(/img/sign.png), #FFFFFF;
-  background-size: 34px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .sign-button:hover {
+    background: url(/img/sign.png), #ffffff;
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.turn-text-button:hover {
-  background: url(/img/ocr.png), #FFFFFF;
-  background-size: 36px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .turn-text-button:hover {
+    background: url(/img/ocr.png), #ffffff;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.color-perspect-button:hover {
-  background: url(/img/folder.png), #FFFFFF;
-  background-size: 34px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .color-perspect-button:hover {
+    background: url(/img/folder.png), #ffffff;
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.share-button:hover {
-  background: url(/img/save.png), #FFFFFF;
-  background-size: 32px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .share-button:hover {
+    background: url(/img/save.png), #ffffff;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -652,8 +651,8 @@
   .features__action-item-mobile {
     max-width: 375px;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
   }
@@ -761,8 +760,7 @@
   }
 
   .footer_background {
-    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left
-        69%,
+    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left 69%,
       url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
       #09090b;
   }
@@ -830,8 +828,8 @@
 
   .terms-page-top-menu__menu-body {
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .top-menu__logo-wrapper {
@@ -845,62 +843,86 @@
     margin-left: auto;
   }
 
-  .scan-button{
-    pointer-events: none;
+  .scan-button {
+    pointer-events: none !important;
     touch-action: none;
-}
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.border-button {
-  pointer-events: none;
-  -ms-touch-action: none;
-        touch-action: none;
-}
+  .border-button {
+    pointer-events: none !important;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.sign-button {
-  pointer-events: none;
-  -ms-touch-action: none;
-        touch-action: none;
-}
+  .sign-button {
+    pointer-events: none !important;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.turn-text-button {
-  pointer-events: none;
-  -ms-touch-action: none;
-        touch-action: none;
-}
+  .turn-text-button {
+    pointer-events: none !important;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.color-perspect-button {
-  pointer-events: none;
-  -ms-touch-action: none;
-        touch-action: none;
-}
+  .color-perspect-button {
+    pointer-events: none !important;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.share-button {
-  pointer-events: none;
-  -ms-touch-action: none;
-        touch-action: none;
-}
+  .share-button {
+    pointer-events: none !important;
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
 
-.scan-button {
-  background-size: 34px !important;
-}
+  .scan-button {
+    background-size: 34px !important;
+  }
 
-.border-button {
-  background-size: 34px;;
-}
+  .border-button {
+    background-size: 34px;
+  }
 
-.sign-button {
-  background-size: 34px;
-}
+  .sign-button {
+    background-size: 34px;
+  }
 
-.turn-text-button {
-  background-size: 36px;
-}
+  .turn-text-button {
+    background-size: 36px;
+  }
 
-.color-perspect-button {
-  background-size: 34px;
-}
+  .color-perspect-button {
+    background-size: 34px;
+  }
 
-.share-button {
-  background-size: 32px;
-}
+  .share-button {
+    background-size: 32px;
+  }
 }
