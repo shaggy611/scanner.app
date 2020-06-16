@@ -1,12 +1,7 @@
 @media (min-width: 320px) and (max-width: 374px) {
   div {
-    pointer-events: none !important;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
   }
 
   .scan-button {
@@ -1069,12 +1064,7 @@
             background-size: 32px;
   }
   div {
-    pointer-events: none !important;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
   }
 }
