@@ -461,6 +461,7 @@
     margin-top: 77px;
     text-align: center !important;
     font-weight: 400;
+    pointer-events: all;
   }
 
   .terms-of-use_heading {
@@ -915,6 +916,7 @@
     margin-bottom: 16px;
     margin-top: 87px;
     text-align: center !important;
+    pointer-events: all;
   }
 
   .terms-of-use_heading {
@@ -1090,6 +1092,17 @@
             user-select: none;
   }
   ._app-store-btn-features > img {
+    pointer-events: all;
+  }
+
+  .header__app-store-download_width {
+    pointer-events: all;
+  }
+  .testimonials {
+    pointer-events: all;
+  }
+
+  .footer__app-store-download_width {
     pointer-events: all;
   }
 }
