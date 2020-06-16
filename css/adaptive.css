@@ -1080,8 +1080,8 @@
             background-size: 32px;
   }
 
-  .features__action-item-mobile {
-    pointer-events: none !important;
+  div {
+    pointer-events: none;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
@@ -1089,14 +1089,7 @@
         -ms-user-select: none;
             user-select: none;
   }
-
-  .how-work {
-    pointer-events: none !important;
-    -ms-touch-action: manipulation !important;
-    touch-action: manipulation !important;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  ._app-store-btn-features > img {
+    pointer-events: all;
   }
 }
