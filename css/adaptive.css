@@ -900,62 +900,62 @@
 
   .scan-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-        touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation !important;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
   }
 
   .border-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-    touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .sign-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-    touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .turn-text-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-    touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .color-perspect-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-    touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .share-button {
     pointer-events: none !important;
-    -ms-touch-action: none;
-    touch-action: none;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
   .scan-button {
