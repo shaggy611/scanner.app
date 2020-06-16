@@ -12,6 +12,12 @@ $(document).ready(function () {
     //   video_block.remove();
     // }
 
+
+    $("div").dblclick(function (event) {
+      event.preventDefault();
+      console.log("hello");
+    })
+
    // SLIDER INITIALIZATION==================================================
    $(".js-slider").slick({
     dots: true,
