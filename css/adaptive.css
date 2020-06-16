@@ -1,5 +1,30 @@
 @media (min-width: 320px) and (max-width: 374px) {
 
+  div {
+    pointer-events: none;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  ._app-store-btn-features > img {
+    pointer-events: all;
+  }
+
+  .header__app-store-download_width {
+    pointer-events: all;
+  }
+  .testimonials {
+    pointer-events: all;
+  }
+
+  .footer__app-store-download_width {
+    pointer-events: all;
+  }
+
   .how-work {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
