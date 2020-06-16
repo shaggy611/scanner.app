@@ -9,7 +9,6 @@
         -ms-user-select: none;
             user-select: none;
   }
-  
   ._app-store-btn-features > img {
     pointer-events: all;
   }
@@ -17,11 +16,15 @@
   .header__app-store-download_width {
     pointer-events: all;
   }
-  .testimonials {
+  .testimonials__slider {
     pointer-events: all;
   }
 
   .footer__app-store-download_width {
+    pointer-events: all;
+  }
+
+  .slick-list {
     pointer-events: all;
   }
 
@@ -1123,11 +1126,15 @@
   .header__app-store-download_width {
     pointer-events: all;
   }
-  .testimonials {
+  .testimonials__slider {
     pointer-events: all;
   }
 
   .footer__app-store-download_width {
+    pointer-events: all;
+  }
+
+  .slick-list {
     pointer-events: all;
   }
 }
