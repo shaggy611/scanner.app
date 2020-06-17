@@ -101,7 +101,7 @@
 
   .header_background-color-patterns {
     background: url("/img/down-wave-pattern-tablet.png") no-repeat left top,
-      url("/img/up-wave-pattern-tablet.png") no-repeat left bottom, #09090b; 
+      url("/img/up-wave-pattern-tablet.png") no-repeat left bottom, #09090b;
   }
 
   .header_padding {
@@ -239,8 +239,8 @@
   .features__action-item-mobile {
     max-width: 690px;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
   }
@@ -363,10 +363,8 @@
   }
 
   .footer_background {
-    background: url("/img/footer-down-wave-pattern-tablet.png") no-repeat left
-        -90%,
-      url("/img/footer-up-wave-pattern-tablet.png") no-repeat 100% top,
-      #09090b;
+    background: url("/img/footer-down-wave-pattern-tablet.png") no-repeat left -90%,
+      url("/img/footer-up-wave-pattern-tablet.png") no-repeat 100% top, #09090b;
   }
 
   .footer__copyright {

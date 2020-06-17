@@ -1,13 +1,12 @@
 @media (min-width: 320px) and (max-width: 374px) {
-
   div {
     pointer-events: none;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   ._app-store-btn-features > img {
     pointer-events: all;
@@ -33,9 +32,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .features__action-item-mobile {
@@ -43,19 +42,19 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .scan-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-        touch-action: manipulation !important;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-         -ms-user-select: none;
-             user-select: none;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .border-button {
@@ -63,9 +62,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .sign-button {
@@ -73,9 +72,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .turn-text-button {
@@ -83,9 +82,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .color-perspect-button {
@@ -93,9 +92,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .share-button {
@@ -103,9 +102,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   .slick-dots {
     max-width: 320px;
@@ -119,44 +118,44 @@
 
   .scan-button {
     -webkit-background-size: 34px 34px !important;
-       -moz-background-size: 34px !important;
-         -o-background-size: 34px !important;
-            background-size: 34px !important;
+    -moz-background-size: 34px !important;
+    -o-background-size: 34px !important;
+    background-size: 34px !important;
   }
 
   .border-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .sign-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .turn-text-button {
     -webkit-background-size: 36px 36px;
-       -moz-background-size: 36px;
-         -o-background-size: 36px;
-            background-size: 36px;
+    -moz-background-size: 36px;
+    -o-background-size: 36px;
+    background-size: 36px;
   }
 
   .color-perspect-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .share-button {
     -webkit-background-size: 32px 32px;
-       -moz-background-size: 32px;
-         -o-background-size: 32px;
-            background-size: 32px;
+    -moz-background-size: 32px;
+    -o-background-size: 32px;
+    background-size: 32px;
   }
 
   .logo__mobile {
@@ -277,9 +276,9 @@
     height: auto;
     margin-bottom: 60px;
     -webkit-background-size: 105px 105px;
-       -moz-background-size: 105px;
-         -o-background-size: 105px;
-            background-size: 105px;
+    -moz-background-size: 105px;
+    -o-background-size: 105px;
+    background-size: 105px;
   }
 
   .how-work__item-save {
@@ -287,9 +286,9 @@
     height: auto;
     margin-bottom: 60px;
     -webkit-background-size: 100px 100px;
-       -moz-background-size: 100px;
-         -o-background-size: 100px;
-            background-size: 100px;
+    -moz-background-size: 100px;
+    -o-background-size: 100px;
+    background-size: 100px;
   }
 
   .how-work__item-upload {
@@ -297,9 +296,9 @@
     background-position: 12% 20%;
     height: auto;
     -webkit-background-size: 95px 95px;
-       -moz-background-size: 95px;
-         -o-background-size: 95px;
-            background-size: 95px;
+    -moz-background-size: 95px;
+    -o-background-size: 95px;
+    background-size: 95px;
   }
 
   .how-work__heading {
@@ -545,7 +544,6 @@
   .top-menu__logo-wrapper {
     margin-right: auto;
     margin-left: 10px;
-    
   }
 
   .top-menu__apple-store-wrapper {
@@ -556,9 +554,9 @@
   .scan-button:hover {
     background: url(/img/scan.png), #ffffff;
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -566,19 +564,19 @@
   .border-button:hover {
     background: url(/img/border.png), #ffffff;
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
-    background-repeat: no-repeat; 
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
+    background-repeat: no-repeat;
     background-position: center;
   }
 
   .sign-button:hover {
     background: url(/img/sign.png), #ffffff;
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -586,9 +584,9 @@
   .turn-text-button:hover {
     background: url(/img/ocr.png), #ffffff;
     -webkit-background-size: 36px 36px;
-       -moz-background-size: 36px;
-         -o-background-size: 36px;
-            background-size: 36px;
+    -moz-background-size: 36px;
+    -o-background-size: 36px;
+    background-size: 36px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -596,9 +594,9 @@
   .color-perspect-button:hover {
     background: url(/img/folder.png), #ffffff;
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -606,9 +604,9 @@
   .share-button:hover {
     background: url(/img/save.png), #ffffff;
     -webkit-background-size: 32px 32px;
-       -moz-background-size: 32px;
-         -o-background-size: 32px;
-            background-size: 32px;
+    -moz-background-size: 32px;
+    -o-background-size: 32px;
+    background-size: 32px;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -736,9 +734,9 @@
     height: auto;
     margin-bottom: 60px;
     -webkit-background-size: 105px 105px;
-       -moz-background-size: 105px;
-         -o-background-size: 105px;
-            background-size: 105px;
+    -moz-background-size: 105px;
+    -o-background-size: 105px;
+    background-size: 105px;
   }
 
   .how-work__item-save {
@@ -746,9 +744,9 @@
     height: auto;
     margin-bottom: 60px;
     -webkit-background-size: 100px 100px;
-       -moz-background-size: 100px;
-         -o-background-size: 100px;
-            background-size: 100px;
+    -moz-background-size: 100px;
+    -o-background-size: 100px;
+    background-size: 100px;
   }
 
   .how-work__item-upload {
@@ -756,9 +754,9 @@
     background-position: 20% 20%;
     height: auto;
     -webkit-background-size: 95px 95px;
-       -moz-background-size: 95px;
-         -o-background-size: 95px;
-            background-size: 95px;
+    -moz-background-size: 95px;
+    -o-background-size: 95px;
+    background-size: 95px;
   }
 
   .how-work__heading {
@@ -1011,11 +1009,11 @@
   .scan-button {
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
-        touch-action: manipulation !important;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-         -ms-user-select: none;
-             user-select: none;
+    touch-action: manipulation !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .border-button {
@@ -1023,9 +1021,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .sign-button {
@@ -1033,9 +1031,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .turn-text-button {
@@ -1043,9 +1041,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .color-perspect-button {
@@ -1053,9 +1051,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .share-button {
@@ -1063,51 +1061,51 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .scan-button {
     -webkit-background-size: 34px 34px !important;
-       -moz-background-size: 34px !important;
-         -o-background-size: 34px !important;
-            background-size: 34px !important;
+    -moz-background-size: 34px !important;
+    -o-background-size: 34px !important;
+    background-size: 34px !important;
   }
 
   .border-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .sign-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .turn-text-button {
     -webkit-background-size: 36px 36px;
-       -moz-background-size: 36px;
-         -o-background-size: 36px;
-            background-size: 36px;
+    -moz-background-size: 36px;
+    -o-background-size: 36px;
+    background-size: 36px;
   }
 
   .color-perspect-button {
     -webkit-background-size: 34px 34px;
-       -moz-background-size: 34px;
-         -o-background-size: 34px;
-            background-size: 34px;
+    -moz-background-size: 34px;
+    -o-background-size: 34px;
+    background-size: 34px;
   }
 
   .share-button {
     -webkit-background-size: 32px 32px;
-       -moz-background-size: 32px;
-         -o-background-size: 32px;
-            background-size: 32px;
+    -moz-background-size: 32px;
+    -o-background-size: 32px;
+    background-size: 32px;
   }
 
   div {
@@ -1115,9 +1113,9 @@
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   ._app-store-btn-features > img {
     pointer-events: all;
