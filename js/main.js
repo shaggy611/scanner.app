@@ -85,9 +85,7 @@ $(document).ready(function () {
   $(".js-handler-for-hover").mouseover(function(event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
-      $(".js-feature__video-scan").attr('src', '/img/videos/scan/Camera_Scanned.mp4');
-      $(".js-feature__video-scan").load();
+      // $(".js-feature__video-scan").attr('src', '/img/videos/scan/Camera_Scanned.mp4');
       play_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -97,8 +95,7 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-border-button")) {
-      $(".js-feature__video-scan").attr('src', '/img/videos/border/Camera_Edit.mp4');
-      $(".js-feature__video-scan").load();
+      // $(".js-feature__video-border").attr('src', '/img/videos/border/Camera_Edit.mp4');
       play_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-sign");
@@ -108,8 +105,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-sign-button")) {
-      $(".js-feature__video-scan").attr('src', '/img/videos/sign/Signature.mp4');
-      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-sign");
+      // $(".js-feature__video-sign").attr('src', '/img/videos/sign/Signature.mp4');
+      play_video_iphone(".js-feature__video-sign");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-turn-text");
@@ -118,8 +115,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-turn-text-button")) {
-      $(".js-feature__video-scan").attr('src', '/img/videos/turn_text/Hwrighting_OCR.mp4');
-      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-turn-text");
+      // $(".js-feature__video-turn-text").attr('src', '/img/videos/turn_text/Hwrighting_OCR.mp4');
+      play_video_iphone(".js-feature__video-turn-text");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -128,8 +125,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-color-perspect-button")) {
-      $(".js-feature__video-scan").attr('src', '/img/videos/color/CC_Moving.mp4');
-      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-color");
+      // $(".js-feature__video-color").attr('src', '/img/videos/color/CC_Moving.mp4');
+      play_video_iphone(".js-feature__video-color");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -138,8 +135,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-share-button")) {
-      $(".js-feature__video-scan").attr('src', '/img/videos/share/Share screen.mp4');
-      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-share");
+      // $(".js-feature__video-share").attr('src', '/img/videos/share/Share screen.mp4');
+      play_video_iphone(".js-feature__video-share");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -213,6 +210,7 @@ $(document).ready(function () {
   });
 
   function play_video_iphone(video_tag) {
+    $(video_tag)[0].load();
     $(video_tag).addClass("d-block");
     $(video_tag)[0].autoplay = true;
     $(video_tag)[0].play();
