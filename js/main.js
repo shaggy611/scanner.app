@@ -82,10 +82,12 @@ $(document).ready(function () {
 
   // Animation with buttons and Video playing===================================
   play_video_iphone(".js-feature__video-scan");
-  $(".js-handler-for-hover").on('mouseenter', function(event) {
+  $(".js-handler-for-hover").mouseover(function(event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
       // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-scan").attr('src', '/img/videos/scan/Camera_Scanned.mp4');
+      $(".js-feature__video-scan").load();
       play_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -95,7 +97,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-border-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
+      $(".js-feature__video-scan").attr('src', '/img/videos/border/Camera_Edit.mp4');
+      $(".js-feature__video-scan").load();
       play_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-sign");
@@ -105,8 +108,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-sign-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
-      play_video_iphone(".js-feature__video-sign");
+      $(".js-feature__video-scan").attr('src', '/img/videos/sign/Signature.mp4');
+      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-sign");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-turn-text");
@@ -115,8 +118,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-turn-text-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
-      play_video_iphone(".js-feature__video-turn-text");
+      $(".js-feature__video-scan").attr('src', '/img/videos/turn_text/Hwrighting_OCR.mp4');
+      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-turn-text");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -125,8 +128,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-color-perspect-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
-      play_video_iphone(".js-feature__video-color");
+      $(".js-feature__video-scan").attr('src', '/img/videos/color/CC_Moving.mp4');
+      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-color");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -135,8 +138,8 @@ $(document).ready(function () {
     }
 
     if (hover_target.classList.contains("js-share-button")) {
-      // $(".features__video-wrapper").addClass("_appear");
-      play_video_iphone(".js-feature__video-share");
+      $(".js-feature__video-scan").attr('src', '/img/videos/share/Share screen.mp4');
+      $(".js-feature__video-scan").load();      play_video_iphone(".js-feature__video-share");
       stop_video_iphone(".js-feature__video-scan");
       stop_video_iphone(".js-feature__video-border");
       stop_video_iphone(".js-feature__video-sign");
@@ -147,7 +150,6 @@ $(document).ready(function () {
 
   $(".js-handler-for-hover-tablet").on("click", function (event) {
     let hover_target = event.target;
-    console.log("bla");
     $(".js-feature__video-scan-tablet").hide();
     if (hover_target.classList.contains("js-scan-button")) {
       console.log("blabla");
@@ -218,8 +220,8 @@ $(document).ready(function () {
   }
 
   function stop_video_iphone(video_tag) {
-    // $(video_tag)[0].autoplay = false;
-    // $(video_tag)[0].pause();
+    $(video_tag)[0].autoplay = false;
+    $(video_tag)[0].pause();
     $(video_tag).removeClass("d-block");
   }
   // ===========================================================================
