@@ -82,7 +82,7 @@ $(document).ready(function () {
 
   // Animation with buttons and Video playing===================================
   play_video_iphone(".js-feature__video-scan");
-  $(".js-handler-for-hover").mouseenter(function (event) {
+  $(".js-handler-for-hover").on('mouseenter', function(event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
       // $(".features__video-wrapper").addClass("_appear");
@@ -213,9 +213,8 @@ $(document).ready(function () {
   function play_video_iphone(video_tag) {
     $(video_tag).addClass("d-block");
     $(video_tag)[0].autoplay = true;
-    $(video_tag)[0].oncanplay = function() {
-      $(video_tag)[0].play();
-    }
+    $(video_tag)[0].play();
+  
   }
 
   function stop_video_iphone(video_tag) {
