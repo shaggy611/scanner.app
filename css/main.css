@@ -673,7 +673,7 @@ a:hover {
   position: absolute;
   top: 2%;
   left: 5.5%;
-  background-color: #202020;
+  /* background-color: #202020; */
   /* background: url("/img/photo_screen_iphone.png") no-repeat 28% 50%; */
   -moz-border-radius: 30px;
        border-radius: 30px;

@@ -1,17 +1,5 @@
 $(document).ready(function () {
 
-  // $(window).resize(function() {
-  //   $(".wrapper").addClass("transition_disabled");
-  //   });
-    
-  // let connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-  // console.log(connection.effectiveType);
-  
-    // if (connection.effectiveType === '3g') {
-    //   let video_block = $(".features__video-wrapper");
-    //   video_block.remove();
-    // }
-
     (function($) {
       var IS_IOS = /iphone|ipad/i.test(navigator.userAgent);
       $.fn.nodoubletapzoom = function() {
