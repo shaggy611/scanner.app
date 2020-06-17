@@ -149,7 +149,6 @@ $(document).ready(function () {
     let hover_target = event.target;
     $(".js-feature__video-scan-tablet").hide();
     if (hover_target.classList.contains("js-scan-button")) {
-      console.log("blabla");
       $(".js-feature__video-scan-tablet").show();
       $(".js-feature__video-border-tablet").hide();
       $(".js-feature__video-sign-tablet").hide();
