@@ -209,16 +209,16 @@ $(document).ready(function () {
   });
 
   function play_video_iphone(video_tag) {
-    $(video_tag)[0].load();
+    $(video_tag).get(0).load();
     $(video_tag).addClass("d-block");
     $(video_tag)[0].autoplay = true;
-    $(video_tag)[0].play();
+    $(video_tag).get(0).play();
   
   }
 
   function stop_video_iphone(video_tag) {
-    $(video_tag)[0].autoplay = false;
-    $(video_tag)[0].pause();
+    // $(video_tag)[0].autoplay = false;
+    // $(video_tag).get(0).pause();
     $(video_tag).removeClass("d-block");
   }
   // ===========================================================================
