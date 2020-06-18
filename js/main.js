@@ -70,12 +70,12 @@ $(document).ready(function () {
 
   // Animation with buttons and Video playing===================================
   play_video_iphone(".js-feature__video-scan");
-  $(".js-feature__video-border").get(0).load();
-  $(".js-feature__video-border").get(0).load();
-  $(".js-feature__video-sign").get(0).load();
-  $(".js-feature__video-turn-text").get(0).load();
-  $(".js-feature__video-color").get(0).load();
-  $(".js-feature__video-share").get(0).load();
+  // $(".js-feature__video-border").get(0).load();
+  // $(".js-feature__video-border").get(0).load();
+  // $(".js-feature__video-sign").get(0).load();
+  // $(".js-feature__video-turn-text").get(0).load();
+  // $(".js-feature__video-color").get(0).load();
+  // $(".js-feature__video-share").get(0).load();
   $(".js-handler-for-hover").mouseover(function(event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
@@ -203,7 +203,7 @@ $(document).ready(function () {
   });
 
   function play_video_iphone(video_tag) {
-    // $(video_tag).get(0).load();
+    $(video_tag).get(0).load();
     $(video_tag).addClass("d-block");
     $(video_tag)[0].autoplay = true;
     $(video_tag).get(0).play();
@@ -211,8 +211,8 @@ $(document).ready(function () {
   }
 
   function stop_video_iphone(video_tag) {
-    // $(video_tag)[0].autoplay = false;
-    // $(video_tag).get(0).pause();
+    $(video_tag)[0].autoplay = false;
+    $(video_tag).get(0).pause();
     $(video_tag).removeClass("d-block");
   }
   // ===========================================================================
