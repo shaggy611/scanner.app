@@ -10,10 +10,9 @@ $(document).ready(function () {
               , dt = t2 - t1
               , fingers = e.originalEvent.touches.length;
             $(this).data('lastTouch', t2);
-            if (!dt || dt > 500 || fingers > 1) return; // not double-tap
+            if (!dt || dt > 500 || fingers > 1) return;
     
-            e.preventDefault(); // double tap - prevent the zoom
-            // also synthesize click events we just swallowed up
+            e.preventDefault();
             $(this).trigger('click').trigger('click');
           });
       };
@@ -70,12 +69,6 @@ $(document).ready(function () {
 
   // Animation with buttons and Video playing===================================
   play_video_iphone(".js-feature__video-scan");
-  // $(".js-feature__video-border").get(0).load();
-  // $(".js-feature__video-border").get(0).load();
-  // $(".js-feature__video-sign").get(0).load();
-  // $(".js-feature__video-turn-text").get(0).load();
-  // $(".js-feature__video-color").get(0).load();
-  // $(".js-feature__video-share").get(0).load();
   $(".js-handler-for-hover").mouseover(function(event) {
     let hover_target = event.target;
     if (hover_target.classList.contains("js-scan-button")) {
@@ -207,7 +200,6 @@ $(document).ready(function () {
     $(video_tag).addClass("d-block");
     $(video_tag)[0].autoplay = true;
     $(video_tag).get(0).play();
-  
   }
 
   function stop_video_iphone(video_tag) {
