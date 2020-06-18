@@ -73,7 +73,7 @@ button:focus,
 }
 
 body {
-  font-family: "SF UI Display", Arial, Helvetica, sans-serif;
+  font-family: "SF UI Display", Arial, sans-serif;
 }
 
 ._app-store-btn-features > img {
