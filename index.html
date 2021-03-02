@@ -2,20 +2,26 @@
 <html lang="en">
 
 <head>
-  <title>My scanner app</title>
+  <title>Scanner-App</title>
   <meta name="description" content="Keep all your documents in hand!">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png">
-  <meta name="msapplication-TileImage" content="/assets/mstile-150x150.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <meta name="msapplication-config" content="/assets/browserconfig.xml">
-  <!-- Required meta tags -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/> -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/manifest.json">
+  <meta name="msapplication-TileImage" content="assets/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" href="/css/normalize.css" />
   <link rel="stylesheet" href="/css/reset.css" />
@@ -39,69 +45,147 @@
             <div class="col-xl-6 col-sm-12 col-md-12 col-lg-12">
               <div class="header__slogan-wrapper">
                 <img src="/img/scanner-logo.svg" alt="logo" class="logo__mobile">
-                <span class="header__app-slogan_font">My Scanner App: Scan to PDF</span>
+                <span class="header__app-slogan_font">Scanner-App: Scan to PDF</span>
               </div>
               <h1 class="header__heading _header-footer-heading">Keep all <span class="_yellow-text">your
                   documents</span> in hand!</h1>
-              <p class="header__paragraph _paragraph-main-font">Turn your iPhone into a portable scanner that is always
-                with you!</p>
-              <a href="https://apps.apple.com/US/app/id1495971405?l=en" role="button" class="btn _app-store-btn" target="_blank"><img src="/img/appstore-download-ico.png"
-                  alt="app store download" class="header__app-store-download_width"></a>
-            </div>
+
+              <img src="/img/users-count.svg" alt="users" class="header__users-count">
+              <!-- <p class="header__paragraph _paragraph-main-font">Turn your iPhone into a portable scanner that is always
+                with you!</p> -->
+                  <a href="https://apps.apple.com/US/app/id1495971405?l=en" role="button" class="btn _try-for-free-btn" target="_blank">try for free</a>
+            </div> 
             <div class="col-xl-6 col-sm-12 col-md-12 col-lg-12">
               <img src="/img/phones-banner.png" alt="iphones-banner" class="header__banner-img_position img-fluid">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-sm-12 col-md-12">
-              <div class="header__scroll-down text-center">
-                <img src="/img/scroll_shake.svg" alt="scroll" class="_shake_scroll">
-                <img src="/img/scroll-ico.svg" alt="scroll down" class="header__scroll-down-img">
-                <span class="header__scroll-down-text">scroll down</span>
-              </div>
             </div>
           </div>
         </div>
       </header>
 
-      <section class="how-work how-work_padding how-work_background">
-        <div class="line-how-work"></div>
-        <div class="line-how-work-arrow"><img src="/img/label_yellow.png" alt="circle navigation"><span class="how-works-dot _paragraph-main-font">How it works</span></div>
+      <section class="testimonials testimonials_padding testimonials_background d-none d-md-block">
+        <div class="line-testimonials"></div>
+        <div class="line-testimonials-arrow"><img src="/img/label_yellow.png" alt="circle navigation"><span class="testimonials-dot _paragraph-main-font">Testimonials</span></div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 col-sm-12 col-md-12 col-lg-12">
-              <p class="how-work__heading _block-main-heading-style text-center">How Does It Work?</p>
-              <p class="how-work__paragraph _paragraph-main-font mx-auto text-center">With My Scanner App you can easily
-                scan any kind of documents, ID cards, books, receipts, paper notes, whiteboards, schedules and
-                timetables – anything you might need in your day to day life.</p>
+            <div class="col-lg-12">
+              <p class="testimonials__heading _block-main-heading-style text-center">Ratings & Feedbacks</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
-              <div class="how-work__item-scan">
-                <img src="/img/scan-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
-                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Make scan in one tap with auto
-                  border-detection</p>
+        </div>
+      </div>
+  
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="testimonials__slider js-slider">
+              <div class="testimonials__slider-item">
+                <img src="/img/person_1.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Great app!
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  All my documents are always safe and in my pocket. 100% happy!
+                </div>
               </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
-              <div class="how-work__item-save">
-                <img src="/img/save-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
-                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Save document as PDF, JPG or TXT
-                </p>
+  
+              <div class="testimonials__slider-item">
+                <img src="/img/person_2.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Best for Students
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  Qualitative pdf scan for 1 second! Use it as an office scanner!
+                </div>
               </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
-              <div class="how-work__item-upload">
-                <img src="/img/upload-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
-                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Email, print upload to any cloud
-                  storage</p>
+  
+              <div class="testimonials__slider-item">
+                <img src="/img/person_3.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Fantastic
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  Scanning and signing documents even can edit the text with OCR!
+                </div>
               </div>
+  
+              <div class="testimonials__slider-item">
+                <img src="/img/person_1.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Great app!
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  All my documents are always safe and in my pocket. 100% happy!
+                </div>
+              </div>
+  
+              <div class="testimonials__slider-item">
+                <img src="/img/person_2.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Best for Students
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  Qualitative pdf scan for 1 second! Use it as an office scanner!
+                </div>
+              </div>
+  
+              <div class="testimonials__slider-item">
+                <img src="/img/person_3.png" alt="person photo" class="testimonials__slider-item-photo">
+                <div class="testimonials__slider-item-heading">
+                  Fantastic
+                </div>
+                <div class="testimonials__slider-item-rate">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                  <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
+                </div>
+                <div class="testimonials__slider-item-comment">
+                  Scanning and signing documents even can edit the text with OCR!
+                </div>
+              </div>
+  
+  
+              
             </div>
           </div>
         </div>
+      </div>
+      
       </section>
 
       <section class="features features_padding features_background">
@@ -112,6 +196,43 @@
             <div class="col-lg-12 col-sm-12 col-md-12">
               <p class="features__heading _block-main-heading-style text-center">Main Features</p>
             </div>
+          </div>
+
+          <div class="row d-flex d-md-none">
+            <div class="col-lg-6 col-sm-12 col-md-6 col-xl">
+              <div class="d-flex features__action-item-mobile">
+                <div class="features__action-item-img_margin _features-common-button-face scan-button"></div> 
+                <div class="features__action-item-info features__action-item-info-second">
+                  <p class="features__action-item-heading features__action-item-heading-turn-txt">Scan to high-quality PDF or JPEG</p>
+                  <p class="features__action-item-paragraph">Transform your iPhone into a handy <br>pocket-sized scanning machine</p>
+                </div>
+              </div> 
+
+              <div class="d-flex features__action-item-mobile">
+                <div class="features__action-item-img_margin _features-common-button-face sign-button"></div> 
+                <div class="features__action-item-info features__action-item-info-second">
+                  <p class="features__action-item-heading features__action-item-heading-turn-txt">Sign docs on the go</p>
+                  <p class="features__action-item-paragraph">E-sign any document by adding your signature to scans within the app</p>
+                </div>
+              </div> 
+
+              <div class="d-flex features__action-item-mobile">
+                <div class="features__action-item-img_margin _features-common-button-face share-button"></div> 
+                <div class="features__action-item-info features__action-item-info-second">
+                  <p class="features__action-item-heading features__action-item-heading-turn-txt">Share your scans in <br>one tap</p>
+                  <p class="features__action-item-paragraph">Easily share the documents by using the export option</p>
+                </div>
+              </div> 
+
+              <div class="d-flex features__action-item-mobile">
+                <div class="features__action-item-img_margin _features-common-button-face measure-button"></div> 
+                <div class="features__action-item-info features__action-item-info-second">
+                  <p class="features__action-item-heading features__action-item-heading-turn-txt">Measure length, or <br>area with Ruler</p>
+                  <p class="features__action-item-paragraph">Just point the scanner at the object</p>
+                </div>
+              </div> 
+            </div>
+
           </div>
 
           <div class="row _hide-on-tablet">
@@ -273,7 +394,7 @@
         
           <div class="row">
           <div class="col-lg-12">
-            <a href="https://apps.apple.com/US/app/id1495971405?l=en" role="button" class="btn _app-store-btn d-block mx-auto _margin-top-70 _app-store-btn-features" target="_blank"><img src="/img/app-store-download-black.png" alt="app store download"></a>
+            <a href="https://apps.apple.com/US/app/id1495971405?l=en" role="button" class="btn _app-store-btn d-none d-md-block  mx-auto _margin-top-70 _app-store-btn-features" target="_blank"><img src="/img/app-store-download-black.png" alt="app store download"></a>
           </div>
           </div>
 
@@ -316,13 +437,13 @@
         </div>
     </section>
 
-    <section class="testimonials testimonials_padding testimonials_background">
+    <section class="testimonials testimonials_padding testimonials_background d-xs-block d-md-none">
       <div class="line-testimonials"></div>
       <div class="line-testimonials-arrow"><img src="/img/label_yellow.png" alt="circle navigation"><span class="testimonials-dot _paragraph-main-font">Testimonials</span></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <p class="testimonials__heading _block-main-heading-style text-center">Testimonials</p>
+            <p class="testimonials__heading _block-main-heading-style text-center">Feedbacks</p>
           </div>
       </div>
     </div>
@@ -344,12 +465,12 @@
                 <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
               </div>
               <div class="testimonials__slider-item-comment">
-                Great app for easy scanning
+                All my documents are always safe and in my pocket. 100% happy!
               </div>
             </div>
 
             <div class="testimonials__slider-item">
-              <img src="/img/person_3.png" alt="person photo" class="testimonials__slider-item-photo">
+              <img src="/img/person_2.png" alt="person photo" class="testimonials__slider-item-photo">
               <div class="testimonials__slider-item-heading">
                 Best for Students
               </div>
@@ -361,7 +482,7 @@
                 <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
               </div>
               <div class="testimonials__slider-item-comment">
-                Most of my documents and study materials scanned with this app. It is very helpful
+                Qualitative pdf scan for 1 second! Use it as an office scanner!
               </div>
             </div>
 
@@ -378,62 +499,9 @@
                 <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
               </div>
               <div class="testimonials__slider-item-comment">
-                Easy to scan and share documents
+                Scanning and signing documents even can edit the text with OCR!
               </div>
             </div>
-
-            <div class="testimonials__slider-item">
-              <img src="/img/person_1.png" alt="person photo" class="testimonials__slider-item-photo">
-              <div class="testimonials__slider-item-heading">
-                Great app!
-              </div>
-              <div class="testimonials__slider-item-rate">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-              </div>
-              <div class="testimonials__slider-item-comment">
-                Great app for easy scanning
-              </div>
-            </div>
-
-            <div class="testimonials__slider-item">
-              <img src="/img/person_3.png" alt="person photo" class="testimonials__slider-item-photo">
-              <div class="testimonials__slider-item-heading">
-                Best for Students
-              </div>
-              <div class="testimonials__slider-item-rate">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-              </div>
-              <div class="testimonials__slider-item-comment">
-                Most of my documents and study materials scanned with this app. It is very helpful
-              </div>
-            </div>
-
-            <div class="testimonials__slider-item">
-              <img src="/img/person_3.png" alt="person photo" class="testimonials__slider-item-photo">
-              <div class="testimonials__slider-item-heading">
-                Fantastic
-              </div>
-              <div class="testimonials__slider-item-rate">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-                <img src="/img/yellow-star.svg" alt="rate-star" class="_margin-right-5">
-              </div>
-              <div class="testimonials__slider-item-comment">
-                Easy to scan and share documents
-              </div>
-            </div>
-
-
             
           </div>
         </div>
@@ -442,14 +510,54 @@
     
     </section>
 
+      <section class="how-work how-work_padding how-work_background">
+        <div class="line-how-work"></div>
+        <div class="line-how-work-arrow"><img src="/img/label_yellow.png" alt="circle navigation"><span class="how-works-dot _paragraph-main-font">How it works</span></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12 col-lg-12">
+              <p class="how-work__heading _block-main-heading-style text-center">How Does It Work?</p>
+              <p class="how-work__paragraph _paragraph-main-font mx-auto text-center">With My Scanner App you can easily
+                scan any kind of documents, ID cards, books, receipts, paper notes, whiteboards, schedules and
+                timetables – anything you might need in your day to day life.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
+              <div class="how-work__item-scan">
+                <img src="/img/scan-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
+                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Make scan in one tap with auto
+                  border-detection</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
+              <div class="how-work__item-save">
+                <img src="/img/save-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
+                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Save document as PDF, JPG or TXT
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4 col-lg-4">
+              <div class="how-work__item-upload">
+                <img src="/img/upload-ico.svg" alt="scan" class="d-block mx-auto _margin-bottom-24">
+                <p class="how-work__scan-info _paragraph-main-font _paragraph-main-font-mobile mx-auto text-center">Email, print upload to any cloud
+                  storage</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <footer class="footer footer_background footer_padding">
       <div class="container">
         <div class="row">
           <div class="col-xl-6  col-sm-12 col-md-12 order-1 order-sm-2 col-lg-12 order-xl-1">
-            <img src="/img/footer-iphones.png" alt="iphones" class="img-fluid footer__iphones-img">
+            <img src="/img/footer-iphones.png" alt="iphones" class="img-fluid footer__iphones-img d-none d-md-block">
           </div>
           <div class="col-xl-6  col-sm-12 col-md-12 order-lg-1 order-sm-1 order-xl-2 col-lg-12">
-            <p class="footer__heading _header-footer-heading">Download <span class="_yellow-text">My Scanner App</span> for iPhone Now</p>
+            <p class="footer__heading _header-footer-heading">Download <span class="_yellow-text">Scanner-App</span> for iPhone Now</p>
             <a href="https://apps.apple.com/US/app/id1495971405?l=en" role="button" class="btn _app-store-btn _app-store-btn-footer" target="_blank"><img src="/img/appstore-download-ico.png"
                 alt="app store download" class="footer__app-store-download_width"></a>
           </div>

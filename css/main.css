@@ -213,6 +213,29 @@ a:hover {
   display: none;
 }
 
+._try-for-free-btn {
+  width: 266px;
+  height: 80px;
+  background: #5383EC;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 75px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0px;
+  pointer-events: all;
+}
+
+._try-for-free-btn:hover {
+  -webkit-box-shadow: 2px 12px 25px 8px rgba(83, 131, 236, 0.15);
+-moz-box-shadow: 2px 12px 25px 8px rgba(83, 131, 236, 0.15);
+box-shadow: 2px 12px 25px 8px rgba(83, 131, 236, 0.15);
+}
+
 /*=================================================================*/
 .line-header {
   height: 1000px;
@@ -304,8 +327,8 @@ a:hover {
 }
 
 .header_padding {
-  padding-bottom: 44px;
-  padding-top: 164px;
+  padding-bottom: 182px;
+  padding-top: 98px;
 }
 
 .header__app-slogan_font {
@@ -334,9 +357,15 @@ a:hover {
 
 .header__banner-img_position {
   position: absolute;
-  top: -23%;
+  top: -5%;
   left: 10%;
-  max-width: 540px !important;
+  max-width: 464.57px !important;
+  max-height: 606px;
+}
+
+.header__users-count {
+  display: block;
+  margin-bottom: 32px;
 }
 
 /* MENU AFTER SCROLL ================================================================*/
@@ -538,6 +567,16 @@ a:hover {
   background-position: center;
 }
 
+.measure-button {
+  background: url(/img/measure.png), #ffffff;
+  -webkit-background-size: 38px 38px;
+  -moz-background-size: 38px;
+  -o-background-size: 38px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .share-button:hover {
   background: url(/img/save-hover.svg) center no-repeat,
     -webkit-gradient(linear, left top, left bottom, from(rgb(83, 131, 236)), to(rgb(27, 92, 235)));
@@ -549,23 +588,6 @@ a:hover {
     -o-linear-gradient(top, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
   background: url(/img/save-hover.svg) center no-repeat,
     linear-gradient(180deg, rgb(83, 131, 236) 0%, rgb(27, 92, 235) 100%);
-}
-
-.header__scroll-down {
-  margin-top: 154px;
-  height: 44px;
-}
-
-.header__scroll-down-text {
-  font-family: "TeX Gyre Adventor";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-left: 18px;
 }
 
 .how-work__item-scan {
@@ -731,7 +753,7 @@ a:hover {
 
 .testimonials_padding {
   padding-top: 118px;
-  padding-bottom: 278px;
+  padding-bottom: 90px;
 }
 .testimonials__heading {
   margin-bottom: 50px;
@@ -823,7 +845,8 @@ a:hover {
 .footer__iphones-img {
   position: absolute;
   top: -79%;
-  max-width: 447px;
+  max-width: 454.08px;
+  left: 10%;
 }
 
 .footer__terms {

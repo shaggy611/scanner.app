@@ -42,7 +42,7 @@ $(document).ready(function () {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }
@@ -221,7 +221,7 @@ $(document).ready(function () {
   $(window).scroll(function () {
 
     // SHOW TOP MENU ===========================================================
-    if ($(window).scrollTop() > 665) {
+    if ($(window).scrollTop() > 565) {
       $(".top-menu").removeClass("_disappear");
       $(".top-menu").show();
       $(".top-menu").addClass("_appear");
@@ -232,12 +232,12 @@ $(document).ready(function () {
       $(".top-menu").addClass("_disappear");
     }
 
-    if ($(window).scrollTop() > 680) {
+    if ($(window).scrollTop() > 2400) {
       how_works_arrow.addClass("_appear_dots");
       how_works_arrow.show();
     }
 
-    if ($(window).scrollTop() > 2201) {
+    if ($(window).scrollTop() > 550) {
       testimonials_arrow.addClass("_appear_dots");
       testimonials_arrow.show()
     }

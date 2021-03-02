@@ -28,6 +28,7 @@
   }
 
   .how-work {
+    display: none;
     pointer-events: none !important;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
@@ -613,6 +614,19 @@
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
+  .header__users-count {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ._try-for-free-btn {
+    width: 335px;
+    height: 58px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+  }
+
   ._features-common-button-face {
     margin-left: auto;
     margin-right: auto;
@@ -720,6 +734,10 @@
     display: none !important;
   }
 
+  .how-work {
+    display: none;
+  }
+
   .how-work_padding {
     padding-top: 80px;
     padding-bottom: 75px;
@@ -780,11 +798,11 @@
 
   .features_padding {
     padding-top: 79px;
-    padding-bottom: 79px;
+    padding-bottom: 50px;
   }
 
   .features__heading {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
 
   .features__iphone-video-wrapper {
@@ -817,6 +835,7 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
   }
 
   .features__action-item-mobile > img {
@@ -845,7 +864,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 182px;
+    width: 350px;
   }
 
   .features__action-item-heading-color {
@@ -868,7 +887,7 @@
   }
 
   .testimonials_padding {
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 68px;
   }
 
@@ -886,7 +905,7 @@
   }
 
   .footer__heading {
-    max-width: 335px;
+    max-width: 270px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -922,14 +941,14 @@
   }
 
   .footer_background {
-    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat left 69%,
+    background: url("/img/footer-up-wave-pattern-mobile.png") no-repeat -2% 1%,
       url("/img/footer-down-wave-pattern-mobile.png") no-repeat 100% top,
       #09090b;
   }
 
   .footer__copyright {
     color: #ffffff;
-    margin-bottom: 12px;
+    margin-bottom: 34px;
     text-align: center !important;
     font-size: 14px;
     margin-top: 1px;
@@ -940,7 +959,7 @@
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 16px;
-    margin-top: 87px;
+    margin-top: 54px;
     text-align: center !important;
     pointer-events: all;
   }
@@ -1121,6 +1140,10 @@
     pointer-events: all;
   }
 
+  ._hide-on-tablet {
+    display: none !important;
+  }
+
   .header__app-store-download_width {
     pointer-events: all;
   }
@@ -1130,6 +1153,7 @@
 
   .footer__app-store-download_width {
     pointer-events: all;
+    max-width: 182px;
   }
 
   .slick-list {
