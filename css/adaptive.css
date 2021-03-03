@@ -614,6 +614,24 @@
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
+
+  .header__install-btn {
+    border: 1px solid #FED32C;
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 112px;
+    height: 42px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 38px;
+    margin-right: 16px;
+  }
+
+  .header__install-btn > p {
+    color: #FED32C;
+  }
+
   .header__users-count {
     margin-left: auto;
     margin-right: auto;
@@ -625,18 +643,21 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 48px;
+    margin-top: 32px;
   }
 
   ._features-common-button-face {
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
     width: 70px;
     height: 70px;
+    display: inline-table;
+    align-self: flex-end;
   }
 
   .logo__mobile {
     content: url(/img/logo_mobile.png);
     width: 58px;
+    margin-right: 12px;
   }
 
   ._mobile-img-width {
@@ -683,23 +704,31 @@
   }
 
   .header_padding {
-    padding-bottom: 44px;
-    padding-top: 44px;
+    padding-bottom: 63px;
+    padding-top: 16px;
   }
 
   .header__app-slogan_font {
     font-family: "SF UI Display";
     font-weight: 600;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 14px;
+    line-height: 17px;
     color: #ffffff;
     margin-left: 0;
     display: block;
-    margin-top: 15px;
+    margin-top: 19px;
   }
 
   .header__slogan-wrapper {
     margin-bottom: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__slogan-wrapper > div {
+    display: flex;
+    margin-left: 16px;
   }
 
   .header__heading {
@@ -798,7 +827,7 @@
 
   .features_padding {
     padding-top: 79px;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
   }
 
   .features__heading {
@@ -812,10 +841,9 @@
   .features__action-item-paragraph {
     font-size: 16px;
     line-height: 26px;
-    max-width: 335px !important;
+    max-width: 245px !important;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
   }
 
   .features__action-item-paragraph-first {
@@ -829,10 +857,8 @@
   }
 
   .features__action-item-mobile {
-    max-width: 375px;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    max-width: 335px;
+    flex-wrap: nowrap;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -856,8 +882,10 @@
   }
 
   .features__action-item-heading {
-    margin-top: 30px;
-    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .features__action-item-heading-turn-txt {
@@ -883,7 +911,9 @@
   }
 
   ._app-store-btn-features {
-    margin-top: -79px !important;
+    margin-top: 61px !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .testimonials_padding {
@@ -1033,6 +1063,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: url('/img/scan-hover.svg') no-repeat center, #5383EC;
   }
 
   .border-button {
@@ -1043,6 +1074,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: url('/img/border-hover.svg') no-repeat center, #5383EC;
   }
 
   .sign-button {
@@ -1053,6 +1085,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: url('/img/sign-hover.svg') no-repeat center, #5383EC;
   }
 
   .turn-text-button {
@@ -1083,6 +1116,8 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background: url('/img/save-hover.svg') no-repeat center, #5383EC;
+    
   }
 
   .scan-button {
@@ -1127,7 +1162,11 @@
     background-size: 32px;
   }
 
-  div {
+  .measure-button {
+    background: url('/img/measure.svg') no-repeat center, #5383EC;
+  }
+
+  /* div {
     pointer-events: none;
     -ms-touch-action: manipulation !important;
     touch-action: manipulation !important;
@@ -1135,7 +1174,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+  } */
   ._app-store-btn-features > img {
     pointer-events: all;
   }
@@ -1158,5 +1197,9 @@
 
   .slick-list {
     pointer-events: all;
+  }
+
+  .features__action-item-info {
+    text-align: left !important;
   }
 }
