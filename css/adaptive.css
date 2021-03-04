@@ -642,7 +642,7 @@
     height: 58px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 48px;
+    line-height: 56px;
     margin-top: 32px;
   }
 
@@ -658,6 +658,7 @@
     content: url(/img/logo_mobile.png);
     width: 58px;
     margin-right: 12px;
+    height: 58px;
   }
 
   ._mobile-img-width {
